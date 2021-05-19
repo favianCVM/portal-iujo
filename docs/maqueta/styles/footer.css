@@ -1,0 +1,95 @@
+@import "../index.css";
+
+.footer {
+  background-color: var(--blue-horizon);
+  border-top: 3px solid var(--black);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  transition: all 0.4s ease;
+  width: 100%;
+}
+
+.footer__info {
+  background-color: var(--marble);
+  border: 3px solid var(--charcoal);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.footer__copyright {
+  display: block;
+  margin: 1rem 0;
+}
+
+hr {
+  margin: 0 1rem;
+  background-color: red;
+  border: 2px solid var(--charcoal);
+}
+
+.footer__flex__container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.footer__container {
+  background-color: var(--marble);
+  border: 3px solid var(--charcoal);
+  border-radius: 0.2rem;
+  padding: 1rem 1.3rem;
+  width: 390px;
+}
+
+.footer__title {
+  font-size: 2rem;
+}
+
+.footer__list {
+  background-color: var(--charcoal);
+  border-radius: 0.15rem;
+  margin: 1rem 0 0 0;
+  padding: 1rem 0 1rem 2rem;
+  list-style: none;
+}
+
+.footer__list-element {
+  margin: 0.5rem 0 0 0;
+}
+
+.footer__list-element::before {
+  content: "\2022";
+  color: var(--marble);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.footer__list-link {
+  color: var(--marble);
+  font-size: 1.1rem;
+}
+
+.footer__list-link:hover {
+  color: var(--soft-blue);
+}
+
+@media screen and (max-width: 790px) {
+  .footer__flex__container {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 0 0;
+  }
+  .footer__container {
+    border-radius: 0px;
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .footer__container {
+    width: 300px;
+  }
+}

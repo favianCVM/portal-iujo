@@ -1,0 +1,70 @@
+@import "../index.css";
+
+.theme-glosary__container {
+  background-color: var(--marble);
+  flex: 4;
+  padding: 1rem;
+}
+
+.theme-glosary__title {
+  text-align: center;
+}
+
+.theme-glosary__search-bar {
+  border: 3px solid var(--black);
+  border-radius: 0.3rem;
+  display: block;
+  font-size: 1.2rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.theme-glosary__search-bar:focus {
+  border: 3px solid var(--soft-blue);
+  outline: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem 0 0 0;
+}
+
+.theme {
+  background-color: var(--marble);
+  border-radius: 0.2rem;
+  align-items: flex-start;
+  margin: 0 1rem 1rem 1rem;
+  position: relative;
+  width: 280px;
+  height: fit-content;
+  transition: all 0.3s ease;
+}
+
+.theme:hover {
+  box-shadow: 15px 9px 29px -10px rgba(0, 0, 0, 0.75);
+  transform: translateX(3px) translateY(3px);
+}
+
+.theme__title {
+  box-shadow: 0px 8px 15px -10px rgba(0, 0, 0, 0.75);
+  color: var(--marble);
+  font-size: 1.3rem;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--blue-horizon);
+}
+
+.theme__definition {
+  border-left: 2px solid var(--charcoal);
+  border-right: 2px solid var(--charcoal);
+  border-bottom: 2px solid var(--charcoal);
+  padding: 1.5rem 1rem;
+  text-align: justify;
+  text-indent: 1rem;
+}
