@@ -1,0 +1,64 @@
+@import "../../Index.scss";
+
+.header {
+  align-items: center;
+  background-size: cover;
+  background-image: url("../../assets/images/banner.jpg");
+  background-repeat: no-repeat;
+  border-bottom: 3px solid $black;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0.8rem 0;
+  width: 100%;
+
+  .header__link {
+    margin: 1rem 0;
+    color: $text-color;
+
+    .header__logo {
+      border-radius: 0.3rem;
+      box-shadow: 0px 1px 12px -2px rgba(0, 0, 0, 0.9);
+      height: 180px;
+      position: relative;
+      width: 250px;
+      transition: all 0.4s ease;
+
+      &:hover {
+        box-shadow: 0 0 1pt 2pt $black;
+
+        transform: translateX(3px) translateY(1.5px);
+      }
+    }
+
+    .header__title {
+      background-color: $marble;
+      border-radius: 0.2rem;
+      box-shadow: 0px 1px 12px -2px rgba(0, 0, 0, 0.9);
+      cursor: pointer;
+      font-size: 35px;
+      font-weight: 700;
+      padding: 0.5rem;
+      transition: all 0.4s;
+
+      &:hover {
+        box-shadow: 0 0 1pt 2pt $black;
+        transform: translateX(3px) translateY(1.5px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    .header__link {
+      .header__logo {
+        height: 110px;
+        width: 150px;
+      }
+
+      .header__title {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
