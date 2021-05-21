@@ -1,11 +1,47 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Footer.scss";
-import references from "../../content/references.json";
+import data from "../../content/references.json";
 
 const Footer = () => {
-  const displayReferences = () => {
-    console.log(references);
+  const [references, setReferences] = useState([]);
+
+  const getReferences = (array) => {
+    return array.reduce((accumulator, item) => {
+      accumulator.push(
+        <li key={item.title} className="footer__list-element">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            className="footer__list-link"
+            href={item.url}
+          >
+            {item.author}. {item.date}. {item.title}
+          </a>
+        </li>
+      );
+      return accumulator;
+    }, []);
   };
+
+  useEffect(() => {
+    let { desarrollo_web, poo } = data;
+
+    let referenceArray1 = (
+      <div key="desarrollo_web" className="footer__container">
+        <h2 className="footer__title">Desarrollo de software</h2>
+
+        <ul className="footer__list">{getReferences(desarrollo_web)}</ul>
+      </div>
+    );
+
+    let referenceArray2 = (
+      <div key="poo" className="footer__container">
+        <h2 className="footer__title">Programación orientada a objetos</h2>
+        <ul className="footer__list">{getReferences(poo)}</ul>
+      </div>
+    );
+    setReferences([referenceArray1, referenceArray2]);
+  }, []);
 
   return (
     <footer className="footer">
@@ -21,24 +57,8 @@ const Footer = () => {
         </span>
       </div>
       <hr />
-
-      <div className="footer__flex__container">
-        <div className="footer__container">
-          <h2 className="footer__title">titulo lorem</h2>
-          <ul className="footer__list">
-            <li className="footer__list-element">
-              <a
-                rel="noreferrer"
-                target="_blank"
-                className="footer__list-link"
-                href="https://www.google.com/"
-              >
-                lorem reference
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <h2 className="footer__reference-title">Referencias bibliográficas</h2>
+      <div className="footer__flex__container">{references}</div>
     </footer>
   );
 };
