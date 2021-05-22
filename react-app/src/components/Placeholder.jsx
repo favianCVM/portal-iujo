@@ -1,11 +1,14 @@
 import React from "react";
 import Header from "./Header/Header";
+import ContentDisplay from "./ContentDisplay/ContentDisplay";
 import Footer from "./Footer/Footer";
+
 const Placeholder = () => {
   return (
     <div className="container">
-      <Header></Header>
-      <Footer></Footer>
+      <Header />
+      <ContentDisplay />
+      <Footer />
     </div>
   );
 };
