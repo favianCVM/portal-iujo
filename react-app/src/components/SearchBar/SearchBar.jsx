@@ -15,7 +15,7 @@ const SearchBar = () => {
       dataArr.reduce((accumulator, item) => {
         if (item.title.toLowerCase().includes(query)) {
           accumulator.push(
-            <li className="searchbar__result">
+            <li key={item.title} className="searchbar__result">
               <Link className="searchbar__result-link" to={item.url}>
                 {item.title}
               </Link>
