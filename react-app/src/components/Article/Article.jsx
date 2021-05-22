@@ -28,35 +28,39 @@ const Article = ({ content }) => {
   };
 
   useEffect(() => {
-    let title = (
-      <h1 key={`article-${content.title}`} className="article__title">
-        {content.title}
-      </h1>
-    );
+    if (content) {
+      let title = (
+        <h1 key={`article-${content.title}`} className="article__title">
+          {content.title}
+        </h1>
+      );
 
-    let themeContent = createParagraphs(content.content);
+      let themeContent = createParagraphs(content.content);
 
-    let themeAssets = createAssets(content.assets);
+      let themeAssets = createAssets(content.assets);
 
-    let subThemes;
+      let subThemes;
 
-    if (content.subContent.length) {
-      subThemes = content.subContent.reduce((accumulator, item) => {
-        let subThemeTitle = (
-          <h2 key={item.title} className="article__subtitle">
-            {item.title}
-          </h2>
-        );
-        let subThemeParagraphs = createParagraphs(item.content);
-        let subThemeAssets = createAssets(item.assets);
+      if (content.subContent.length) {
+        subThemes = content.subContent.reduce((accumulator, item) => {
+          let subThemeTitle = (
+            <h2 key={item.title} className="article__subtitle">
+              {item.title}
+            </h2>
+          );
+          let subThemeParagraphs = createParagraphs(item.content);
+          let subThemeAssets = createAssets(item.assets);
 
-        accumulator.push(subThemeTitle, subThemeParagraphs, subThemeAssets);
-        return accumulator;
-      }, []);
+          accumulator.push(subThemeTitle, subThemeParagraphs, subThemeAssets);
+          return accumulator;
+        }, []);
+      }
+
+      setArticle([title, themeContent, themeAssets, subThemes]);
+    } else {
+      setArticle(null);
     }
-
-    setArticle([title, themeContent, themeAssets, subThemes]);
-  }, []);
+  }, [content]);
 
   return <article className="article">{article}</article>;
 };
