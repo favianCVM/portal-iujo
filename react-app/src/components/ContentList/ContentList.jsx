@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import "./ContentList.scss";
 
 const ContentList = ({ content }) => {
@@ -9,7 +9,7 @@ const ContentList = ({ content }) => {
     let listElement = content.content.reduce((accumulator, item) => {
       accumulator.push(
         <li key={item.title} className="content-list__element">
-          <Link className="content-list__link" to={item.url}>
+          <Link className="content-list__link" to={`/theme/${item.url}`}>
             {item.title}
           </Link>
         </li>
