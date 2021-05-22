@@ -1,0 +1,56 @@
+@import "../../Index.scss";
+
+.article {
+  background-color: $marble;
+  flex: 4;
+  padding: 1rem;
+
+  .article__title {
+    cursor: default;
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 1.8rem 0;
+    text-align: center;
+  }
+
+  .article__subtitle {
+    cursor: default;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 1.8rem 0;
+    text-align: center;
+  }
+
+  .article__paragraph {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin: 2rem 5rem;
+    text-align: justify;
+    text-indent: 1.8rem;
+  }
+
+  .article__image {
+    box-shadow: 0px 8px 12px -2px rgba(0, 0, 0, 0.4);
+    border-radius: 0.2rem;
+    display: block;
+    height: 330px;
+    margin: 1.5rem auto;
+    max-width: calc(100% - 9rem);
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .article {
+    padding: 0 0.5rem;
+    .article__paragraph {
+      margin: 2rem 0.5rem;
+      font-size: 1rem;
+    }
+    .article__image {
+      width: calc(100% - 1rem);
+      height: 200px;
+    }
+  }
+}
