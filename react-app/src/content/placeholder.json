@@ -4,14 +4,14 @@
       "theme": "the dummy 1",
       "content": [
         {
-          "title": "dummy 1 1",
+          "title": "pan con queso y muchooooooooooooooooo queso",
           "url": "dummy_1_1",
           "content": ["paragraph"],
           "assets": ["image"],
           "subContent": []
         },
         {
-          "title": "dummy 1 2",
+          "title": "cerveza",
           "url": "dummy_1_2",
           "content": ["paragraph"],
           "assets": ["image"],
@@ -29,14 +29,14 @@
       "theme": "the dummy 2",
       "content": [
         {
-          "title": "dummy 2 1",
+          "title": "comida",
           "url": "dummy_2_1",
           "content": ["paragraph"],
           "assets": ["image"],
           "subContent": []
         },
         {
-          "title": "dummy 2 2",
+          "title": "perro",
           "url": "dummy_2_2",
           "content": ["paragraph"],
           "assets": ["image"],

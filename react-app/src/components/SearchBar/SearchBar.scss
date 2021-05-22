@@ -1,0 +1,43 @@
+@import "../../Index.scss";
+
+.searchbar {
+  border: 3px solid $black;
+  display: block;
+  font-size: 1.2rem;
+  margin: 1rem auto 0 auto;
+  padding: 0.5rem;
+  width: 230px;
+  transition: all 0.4s ease;
+
+  &:focus {
+    border: 3px solid $soft-blue;
+    outline: none;
+  }
+
+  &__result-list {
+    position: absolute;
+    list-style: none;
+  }
+
+  &__result {
+    background-color: $marble;
+    border-right: 2px solid $black;
+    border-left: 2px solid $black;
+    border-bottom: 2px solid $black;
+    font-weight: bold;
+    width: 230px;
+    word-wrap: break-word;
+    transition: all 0.3s ease;
+    text-align: center;
+
+    &:hover {
+      background-color: $soft-red;
+    }
+  }
+
+  &__result-link {
+    color: $text-color;
+    display: block;
+    padding: 0.8rem 0;
+  }
+}
