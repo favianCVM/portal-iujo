@@ -20,6 +20,16 @@
               "title": "dummy subtitle",
               "content": ["paragraph"],
               "assets": ["image"]
+            },
+            {
+              "title": "dummy subtitle 2",
+              "content": ["paragraph"],
+              "assets": ["image"]
+            },
+            {
+              "title": "dummy subtitle 3",
+              "content": ["paragraph"],
+              "assets": ["image"]
             }
           ]
         }
