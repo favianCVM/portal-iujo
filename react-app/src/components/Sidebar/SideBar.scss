@@ -9,4 +9,20 @@
   flex-direction: column;
   flex: 1;
   padding: 0 0 1rem 0;
+
+  .terms-glosary__link {
+    background-color: $marble;
+    border: 3px solid $black;
+    border-radius: 0.15rem;
+    color: $text-color;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    width: 350px;
+
+    &:hover {
+      color: $soft-blue;
+    }
+  }
 }
