@@ -12,7 +12,7 @@ const SideBar = () => {
       {data.map((item) => (
         <ContentList key={item.theme} content={item} />
       ))}
-      <Link className="terms-glosary__link" to="/terms_glosary">
+      <Link className="terms-glosary__link" to="/term_glosary">
         Glosario de términos
       </Link>
     </nav>
