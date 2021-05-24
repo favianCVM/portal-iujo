@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "./SearchBar.scss";
-import data from "../../content/placeholder.json";
 
-const SearchBar = () => {
+const SearchBar = ({ data }) => {
   const [options, setOptions] = useState(null);
-  const dataArr = [...data.data[0].content, ...data.data[1].content];
+  const dataArr = [...data[0].content, ...data[1].content];
 
   const getOptions = (e) => {
     let query = e.target.value.toLowerCase().trim();
