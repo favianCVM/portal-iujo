@@ -1,0 +1,30 @@
+@import "../../Index.scss";
+
+.term {
+  background-color: $marble;
+  border-radius: 0.2rem;
+  align-items: flex-start;
+  margin: 0 1rem 1rem 1rem;
+  position: relative;
+  width: 300px;
+  height: fit-content;
+  transition: all 0.3s ease;
+
+  .term__title {
+    box-shadow: 0px 8px 10px -10px rgba(0, 0, 0, 0.75);
+    color: $marble;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: $blue-horizon;
+  }
+
+  .term__definition {
+    border-left: 2px solid $charcoal;
+    border-right: 2px solid $charcoal;
+    border-bottom: 2px solid $charcoal;
+    padding: 1.5rem 1rem;
+    text-align: justify;
+    text-indent: 1rem;
+  }
+}
