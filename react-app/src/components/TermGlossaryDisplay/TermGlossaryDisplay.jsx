@@ -1,11 +1,11 @@
 import React from "react";
-import "./TermGlosaryDisplay.scss";
-import TermGlosary from "../TermsGlosary/TermGlosary";
+import "./TermGlossaryDisplay.scss";
+import TermGlosary from "../TermsGlossary/TermGlossary";
 import SideBar from "../Sidebar/SideBar";
 
 const TermGlosaryDisplay = () => {
   return (
-    <div className="term-glosary-display">
+    <div className="term-glossary-display">
       <TermGlosary />
       <SideBar />
     </div>

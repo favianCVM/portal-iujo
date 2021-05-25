@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./TermsGlosary.scss";
+import "./TermsGlossary.scss";
 import Term from "../Term/Term";
 import TermSearchBar from "../TermSearchBar/TermSearchBar";
 import { data } from "../../content/termsPlaceholder.json";
@@ -23,7 +23,7 @@ const TermsGlosary = () => {
   }, []);
 
   return (
-    <div className="term-glosary">
+    <div className="term-glossary">
       <TermSearchBar terms={data} setSelectedTerm={setSelectedTerm} />
       <div className="term__container">
         {selectedTerm
