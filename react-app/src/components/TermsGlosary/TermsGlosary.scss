@@ -1,0 +1,15 @@
+@import "../../Index.scss";
+
+.term-glosary {
+  background-color: $horizon;
+
+  flex: 4;
+
+  .term__container {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+}
