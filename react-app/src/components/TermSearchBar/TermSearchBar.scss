@@ -1,0 +1,16 @@
+@import "../../Index.scss";
+
+.term-searchbar {
+  border: 3px solid $black;
+  display: block;
+  font-size: 1.2rem;
+  margin: 1rem auto 0 auto;
+  padding: 0.5rem;
+  width: 260px;
+  transition: all 0.4s ease;
+
+  &:focus {
+    border: 3px solid $soft-blue;
+    outline: none;
+  }
+}
