@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
 import "./ContentList.scss";
 
 const ContentList = ({ content }) => {
@@ -21,10 +22,18 @@ const ContentList = ({ content }) => {
             key={`sub-content${item.title}`}
             className="content-list__sub-list"
           >
-            {item.subContent.reduce((accumulator, item) => {
+            {item.subContent.reduce((accumulator, subItem) => {
               accumulator.push(
-                <li key={item.title} className="content-list__element">
-                  {item.title}
+                <li key={subItem.title} className="content-list__element">
+                  <Link
+                    className="content-list__link"
+                    to={{
+                      pathname: `/theme/${item.url}`,
+                      state: subItem.title,
+                    }}
+                  >
+                    {subItem.title}
+                  </Link>
                 </li>
               );
               return accumulator;

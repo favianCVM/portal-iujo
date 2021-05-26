@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Article.scss";
 
-const Article = ({ content }) => {
+const Article = ({ content, objective }) => {
   const [article, setArticle] = useState([]);
+  const scroll = useRef(null);
 
   const createParagraphs = (content) => {
     return content.reduce((accumulator, item) => {
@@ -16,7 +17,6 @@ const Article = ({ content }) => {
       return accumulator;
     }, []);
   };
-
   const createAssets = (content) => {
     return content.reduce((accumulator, item) => {
       let image = (
@@ -27,13 +27,31 @@ const Article = ({ content }) => {
     }, []);
   };
 
+  const displayAndScroll = async (array) => {
+    await setArticle(array);
+    if (scroll.current) scroll.current.scrollIntoView();
+  };
+
   useEffect(() => {
     if (content) {
-      let title = (
-        <h1 key={`article-${content.title}`} className="article__title">
-          {content.title}
-        </h1>
-      );
+      let title;
+      if (!objective) {
+        title = (
+          <h1
+            key={`article-${content.title}`}
+            ref={scroll}
+            className="article__title"
+          >
+            {content.title}
+          </h1>
+        );
+      } else {
+        title = (
+          <h1 key={`article-${content.title}`} className="article__title">
+            {content.title}
+          </h1>
+        );
+      }
 
       let themeContent = createParagraphs(content.content);
 
@@ -43,11 +61,20 @@ const Article = ({ content }) => {
 
       if (content.subContent.length) {
         subThemes = content.subContent.reduce((accumulator, item) => {
-          let subThemeTitle = (
-            <h2 key={item.title} className="article__subtitle">
-              {item.title}
-            </h2>
-          );
+          let subThemeTitle;
+          if (objective === item.title) {
+            subThemeTitle = (
+              <h2 key={item.title} ref={scroll} className="article__subtitle">
+                {item.title}
+              </h2>
+            );
+          } else {
+            subThemeTitle = (
+              <h2 key={item.title} className="article__subtitle">
+                {item.title}
+              </h2>
+            );
+          }
           let subThemeParagraphs = createParagraphs(item.content);
           let subThemeAssets = createAssets(item.assets);
 
@@ -56,11 +83,11 @@ const Article = ({ content }) => {
         }, []);
       }
 
-      setArticle([title, themeContent, themeAssets, subThemes]);
+      displayAndScroll([title, themeContent, themeAssets, subThemes]);
     } else {
       setArticle(null);
     }
-  }, [content]);
+  }, [content, objective]);
 
   return <article className="article">{article}</article>;
 };
