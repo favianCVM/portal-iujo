@@ -10,11 +10,16 @@
   flex: 1;
   padding: 0 0 1rem 0;
 
+  .sidebar-sticky {
+    position: sticky;
+    top: 0;
+  }
   .terms-glosary__link {
     background-color: $marble;
     border: 3px solid $black;
     border-radius: 0.15rem;
     color: $text-color;
+    display: block;
     font-weight: bold;
     font-size: 1.4rem;
     margin: 1rem 0 0 0;

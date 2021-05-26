@@ -18,6 +18,10 @@
     position: absolute;
     z-index: 1;
     list-style: none;
+    left: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__result {

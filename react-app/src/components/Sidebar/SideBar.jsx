@@ -8,13 +8,15 @@ import ContentList from "../ContentList/ContentList";
 const SideBar = () => {
   return (
     <nav className="sidebar">
-      <SearchBar data={data} />
-      {data.map((item) => (
-        <ContentList key={item.theme} content={item} />
-      ))}
-      <Link className="terms-glosary__link" to="/term_glosary">
-        Glosario de términos
-      </Link>
+      <div className="sidebar-sticky">
+        <SearchBar data={data} />
+        {data.map((item) => (
+          <ContentList key={item.theme} content={item} />
+        ))}
+        <Link className="terms-glosary__link" to="/term_glosary">
+          Glosario de términos
+        </Link>
+      </div>
     </nav>
   );
 };

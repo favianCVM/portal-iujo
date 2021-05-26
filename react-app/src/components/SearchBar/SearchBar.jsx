@@ -29,6 +29,33 @@ const SearchBar = ({ data }) => {
           );
         }
 
+        if (item.subContent.length) {
+          accumulator.push(
+            item.subContent.reduce((accumulator, subItem) => {
+              if (subItem.title.toLowerCase().includes(query)) {
+                accumulator.push(
+                  <li key={subItem.title} className="searchbar__result">
+                    <Link
+                      className="searchbar__result-link"
+                      onClick={() => {
+                        setOptions(null);
+                        setQuery("");
+                      }}
+                      to={{
+                        pathname: `/theme/${item.url}`,
+                        state: subItem.title,
+                      }}
+                    >
+                      {subItem.title}
+                    </Link>
+                  </li>
+                );
+              }
+              return accumulator;
+            }, [])
+          );
+        }
+
         return accumulator;
       }, [])
     );
