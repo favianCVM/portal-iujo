@@ -1,16 +1,17 @@
 @import "../../Index.scss";
 
 .sidebar {
-  align-items: center;
   background-color: $charcoal;
   border-left: 3px solid $black;
   border-right: 3px solid $black;
-  display: flex;
-  flex-direction: column;
+
   flex: 1;
   padding: 0 0 1rem 0;
 
   .sidebar-sticky {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     position: sticky;
     top: 0;
   }
