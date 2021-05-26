@@ -54,3 +54,11 @@
     }
   }
 }
+
+@media screen and (max-width: 400px) {
+  .article {
+    .article__title {
+      font-size: 1.3rem;
+    }
+  }
+}

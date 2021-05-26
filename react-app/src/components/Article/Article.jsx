@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Article.scss";
+import Navigator from "../Navigator/Navigator";
 
-const Article = ({ content, objective }) => {
+const Article = ({ content, objective, contentIndex }) => {
   const [article, setArticle] = useState([]);
   const scroll = useRef(null);
 
@@ -89,7 +90,12 @@ const Article = ({ content, objective }) => {
     }
   }, [content, objective]);
 
-  return <article className="article">{article}</article>;
+  return (
+    <article className="article">
+      {article}
+      {<Navigator contentIndex={contentIndex} />}
+    </article>
+  );
 };
 
 export default Article;
