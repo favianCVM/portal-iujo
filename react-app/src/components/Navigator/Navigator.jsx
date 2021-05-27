@@ -26,12 +26,12 @@ const Navigator = ({ contentIndex }) => {
 
   return (
     <div className="navigator">
-      <button onClick={navigate} className="navigator__button left">
+      <span onClick={navigate} className="navigator__button left">
         Anterior
-      </button>
-      <button onClick={navigate} className="navigator__button right">
+      </span>
+      <span onClick={navigate} className="navigator__button right">
         Siguiente
-      </button>
+      </span>
     </div>
   );
 };
