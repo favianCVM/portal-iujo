@@ -24,6 +24,7 @@ const TermsGlosary = () => {
 
   return (
     <div className="term-glossary">
+      <h1 className="term-glosary__title">Glosario de términos</h1>
       <TermSearchBar terms={data} setSelectedTerm={setSelectedTerm} />
       <div className="term__container">
         {selectedTerm

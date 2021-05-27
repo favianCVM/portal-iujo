@@ -2,9 +2,15 @@
 
 .term-glossary {
   background-color: $horizon;
-
   flex: 4;
 
+  .term-glosary__title {
+    color: $marble;
+    margin: 1rem 0 0 0;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
   .term__container {
     margin: 1rem 0 0 0;
     display: flex;

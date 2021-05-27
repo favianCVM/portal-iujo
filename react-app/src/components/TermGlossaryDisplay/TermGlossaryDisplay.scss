@@ -3,3 +3,9 @@
 .term-glossary-display {
   display: flex;
 }
+
+@media screen and (max-width: 720px) {
+  .term-glossary-display {
+    flex-direction: column-reverse;
+  }
+}
