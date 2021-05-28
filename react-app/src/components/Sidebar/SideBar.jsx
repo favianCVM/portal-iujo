@@ -3,6 +3,7 @@ import "./SideBar.scss";
 import { HashLink as Link } from "react-router-hash-link";
 import { data } from "../../content/placeholder.json";
 import SearchBar from "../SearchBar/SearchBar";
+import History from "../History/History";
 import ContentList from "../ContentList/ContentList";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +18,7 @@ const SideBar = () => {
 
       <div className="sidebar-dropdown">
         <SearchBar data={data} />
+        <History />
         {data.map((item) => (
           <ContentList key={item.theme} content={item} />
         ))}
