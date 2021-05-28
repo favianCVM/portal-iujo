@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import { data } from "../content/placeholder.json";
 import Header from "../components/Header/Header";
@@ -14,7 +14,7 @@ const ThemeContainer = () => {
   useEffect(() => {
     let dataArray = [...data[0].content, ...data[1].content];
 
-    dataArray.filter((item, index) => {
+    dataArray.find((item, index) => {
       if (item.url === params.title) {
         setContent(item);
         setContentIndex(index);

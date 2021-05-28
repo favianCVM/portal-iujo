@@ -38,19 +38,19 @@ const Article = ({ content, objective, contentIndex }) => {
       let title;
       if (!objective) {
         title = (
-          <h1
+          <h2
             key={`article-${content.title}`}
             ref={scroll}
             className="article__title"
           >
             {content.title}
-          </h1>
+          </h2>
         );
       } else {
         title = (
-          <h1 key={`article-${content.title}`} className="article__title">
+          <h2 key={`article-${content.title}`} className="article__title">
             {content.title}
-          </h1>
+          </h2>
         );
       }
 

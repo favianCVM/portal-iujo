@@ -46,7 +46,7 @@ const ContentList = ({ content }) => {
     }, []);
 
     setElements([listElement]);
-  }, []);
+  }, [content.content]);
 
   return (
     <ul className="content-list">

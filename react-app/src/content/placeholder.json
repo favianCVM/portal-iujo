@@ -78,7 +78,7 @@
           "assets": ["image"],
           "subContent": [
             {
-              "title": "dummy subtitle 2",
+              "title": "dummy subtitle 22",
               "content": ["paragraph"],
               "assets": ["image"]
             }
