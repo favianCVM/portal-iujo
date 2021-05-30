@@ -12,17 +12,12 @@
 
   .term__title {
     box-shadow: 0px 8px 10px -10px rgba(0, 0, 0, 0.75);
-    color: $marble;
     font-size: 1.3rem;
     padding: 1rem;
     text-align: center;
-    background-color: $blue-horizon;
   }
 
   .term__definition {
-    border-left: 2px solid $charcoal;
-    border-right: 2px solid $charcoal;
-    border-bottom: 2px solid $charcoal;
     padding: 1.5rem 1rem;
     text-align: justify;
     text-indent: 1rem;
