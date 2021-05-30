@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import Bookmark from "../Bookmark/Bookmark";
 import "./ContentList.scss";
 
 const ContentList = ({ content }) => {
@@ -13,6 +13,7 @@ const ContentList = ({ content }) => {
           <Link className="content-list__link" to={`/theme/${item.url}`}>
             {item.title}
           </Link>
+          <Bookmark title={item.title} />
         </li>
       );
 
@@ -34,6 +35,7 @@ const ContentList = ({ content }) => {
                   >
                     {subItem.title}
                   </Link>
+                  <Bookmark title={subItem.title} />
                 </li>
               );
               return accumulator;

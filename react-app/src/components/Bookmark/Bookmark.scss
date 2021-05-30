@@ -1,0 +1,29 @@
+@import "../../Index.scss";
+
+.bookmark {
+  color: $soft-blue;
+  cursor: pointer;
+  margin: 0 0 0 0.7rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $soft-red;
+  }
+  &:focus {
+    color: $soft-red;
+  }
+}
+
+.bookmark--checked {
+  color: $soft-red;
+  cursor: pointer;
+  margin: 0 0 0 0.7rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $soft-blue;
+  }
+  &:focus {
+    color: $soft-blue;
+  }
+}
