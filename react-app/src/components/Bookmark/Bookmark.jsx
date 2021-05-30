@@ -11,7 +11,7 @@ const Bookmark = ({ title }) => {
     if (app.bookmarks.includes(title)) {
       setBookmarkColor("bookmark--checked");
     }
-  }, []);
+  }, [title]);
 
   const saveBookmark = () => {
     let app = JSON.parse(localStorage.getItem("app"));
