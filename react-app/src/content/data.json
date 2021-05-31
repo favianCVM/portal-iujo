@@ -4,39 +4,284 @@
       "theme": "Programación orientada a objetos",
       "content": [
         {
-          "title": "Paradigmas",
-          "url": "paradigmas",
-          "content": [],
-          "assets": [],
-          "subContent": []
-        },
-        {
-          "title": "Conceptos de POO",
-          "url": "conceptos_poo",
-          "content": [],
-          "assets": [],
-          "subContent": []
-        },
-        {
-          "title": "Uso de UML en la POO",
-          "url": "uso_uml_en_poo",
-          "content": [],
-          "assets": [],
-          "subContent": []
-        },
-        {
           "title": "Abstracción",
           "url": "abstraccion",
-          "content": [],
-          "assets": [],
+          "content": [
+            "La abstracción consiste en aislar un elemento de su contexto o del resto de los elementos que lo acompañan. En programación, el término se refiere al énfasis en el ¿qué hace? Más que en el ¿cómo lo hace? (característica de caja negra). El común denominador en la evolución de los lenguajes de programación, desde los clásicos o imperativos hasta los orientados a objetos, ha sido el nivel de abstracción del que cada uno de ellos hace uso.",
+            "La abstracción también se puede entender como el método que se usa al momento de analizar un elemento particular, despreciando los aspectos no relevantes para el estudio específico, y considerando solo las propiedades esenciales para dicho análisis, facilitando con ello la mejor comprensión de dicho elemento y disminuyendo de esta manera el esfuerzo que se debe invertir en su comprensión.",
+            "Los lenguajes de programación son las herramientas mediante las cuales los diseñadores de lenguajes pueden implementar los modelos abstractos. La abstracción ofrecida por los lenguajes de programación se puede dividir en dos categorías: abstracción de datos (pertenecientes a los datos) y abstracción de control (perteneciente a las estructuras de control).",
+            "Los diferentes paradigmas de programación han aumentado su nivel de abstracción, comenzando desde los lenguajes de máquina, lo más próximo al ordenador y más lejano a la comprensión humana; pasando por los lenguajes de comandos, los imperativos, la orientación a objetos (POO), la Programación Orientada a Aspectos (POA); u otros paradigmas como la programación declarativa, etc.",
+            "La abstracción encarada desde el punto de vista de la programación orientada a objetos expresa las características esenciales de un objeto, las cuales distinguen al objeto de los demás. Además de distinguir entre los objetos provee límites conceptuales. Entonces se puede decir que la encapsulación separa las características esenciales de las no esenciales dentro de un objeto. Si un objeto tiene más características de las necesarias los mismos resultarán difíciles de usar, modificar, construir y comprender sobre todo cuando es un método de número entero con terminación fraccionaria. La misma genera una ilusión de simplicidad dado que minimiza la cantidad de características que definen a un objeto."
+          ],
+          "assets": ["http://www.buscaminegocio.com/img/polimorfismo.gif"],
           "subContent": []
         },
+
         {
-          "title": "Ventajas del uso de POO",
-          "url": "ventajas_poo",
-          "content": [],
-          "assets": [],
+          "title": "Paradigmas",
+          "url": "paradigmas",
+          "content": [
+            "Los paradigmas de programación son los principios fundamentales de la programación de software. Lo más fácil es planteárselos como estilos de programación fundamentalmente diferenciados que, en consecuencia, generan códigos software que están estructurados de forma distinta.",
+            "El concepto clásico es el de la programación imperativa, en la que se define claramente en el código fuente qué pasos debe ejecutar un programa y en qué secuencia. Sus subtipos son la programación procedimental y la orientada a objetos. Según el principio de la programación declarativa, solo se describe lo que debe solucionar el software (es decir, solo el resultado y no los pasos individuales). Subtipos del paradigma declarativo son la programación funcional y la lógica. ¿Cómo se distinguen entre sí los citados paradigmas de software?"
+          ],
+          "assets": [
+            "https://www.ionos.es/digitalguide/fileadmin/user_upload/ES-programmierparadigmen.png"
+          ],
           "subContent": []
+        },
+
+        {
+          "title": "Programación imperativa: el paradigma de programación clásico",
+          "url": "programacion_imperativa",
+          "content": [
+            "Entre los paradigmas de programación de software, la programación imperativa (del latín imperare, ordenar) se considera el paradigma clásico. Los primeros lenguajes de programación y, por extensión, también los primeros programas informáticos, se basaban completamente en este enfoque, que prevé una secuencia regularizada de órdenes o instrucciones determinadas. Este paradigma de programación es la base, por ejemplo, de los veteranos lenguajes Pascal y C, así como de todos los lenguajes ensambladores, entre otros. En la programación imperativa, el centro de atención radica, entre otras cosas, en trabajar lo más cerca posible del sistema. Como consecuencia, el código de programación resultante es fácil de comprender y, a la vez, muy abarcable.",
+            "La programación estructurada, la procedimental y la modular son tres enfoques adicionales subordinados al paradigma de programación imperativa para escribir y estructurar código software."
+          ],
+          "assets": [
+            "https://bandageek.com/wp-content/uploads/2016/03/control-flow1.jpg"
+          ],
+          "subContent": [
+            {
+              "title": "Programación estructurada",
+              "content": [
+                "El enfoque estructurado de programación constituye una forma simplificada de programación imperativa. La principal modificación del principio básico radica en que, en lugar de instrucciones de salto absolutas (instrucciones que provocan que el procesamiento no continúe con la siguiente instrucción, sino en otro lugar) este paradigma de programación de software prevé el uso de bucles y estructuras de control. Un ejemplo de ello es el uso de “do...while” para realizar una instrucción de forma automática siempre que se dé una determinada condición (al menos una vez)."
+              ],
+              "assets": []
+            },
+            {
+              "title": "Programación procedimental",
+              "content": [
+                "El paradigma de programación procedimental amplía el enfoque imperativo con la posibilidad de desglosar algoritmos en porciones manejables. Estos se denominan como procedimientos, dependiendo del lenguaje de programación, o también como subprogramas, rutinas o funciones. El sentido y el propósito de esta distribución es hacer que el código de programa sea más claro y evitar las repeticiones innecesarias de código. Mediante la abstracción de los algoritmos, el paradigma de software procedimental representa un paso decisivo desde los lenguajes ensambladores simples hasta los lenguajes estándar complejos."
+              ],
+              "assets": []
+            },
+            {
+              "title": "Programación modular",
+              "content": [
+                "La programación modular también se clasifica como un subtipo del paradigma de programación imperativo. En principio, es muy similar al enfoque procedimental, o más bien lo adapta a los requerimientos de proyectos de software mayores y más amplios. En este sentido, el código fuente se divide específicamente en bloques parciales lógicos independientes los unos de los otros para proporcionar más transparencia y facilitar el proceso de debugging (resolución de errores). Los bloques parciales individuales, denominados módulos, se pueden probar por separado antes de vincularlos posteriormente a una aplicación conjunta."
+              ],
+              "assets": [
+                "https://image.freepik.com/vector-gratis/caracter-par-resolver-ilustracion-piezas-rompecabezas_53876-32627.jpg"
+              ]
+            }
+          ]
+        },
+
+        {
+          "title": "Programación declarativa: paradigmas de software del pasado más reciente",
+          "url": "programacion_declarativa",
+          "content": [
+            "De forma paralela a la evolución continuada del hardware y el software, con el enfoque declarativo se desarrolló un paradigma alternativo para la programación de código. El principio fundamental de la programación declarativa radica en la descripción del resultado final que se busca. Por lo tanto, en primera línea se encuentra el “qué” del resultado y no el “cómo” de los pasos que llevan a la solución, como es el caso en la programación imperativa. Esto provoca que el código de la programación declarativa sea más difícil de comprender debido al alto grado de abstracción, aunque resulta muy corto y preciso.",
+            "Dentro de los subtipos del paradigma de programación declarativa, existen más diferencias que dentro del estilo imperativo. Asimismo, su definición y clasificación no es siempre exacta. Los dos enfoques más importantes del paradigma de programación declarativa son la programación funcional y la lógica."
+          ],
+          "assets": [
+            "https://uploads.toptal.io/blog/image/92461/toptal-blog-image-1462356921267-9693c70509c3eb5a68b5acdaef4bed7f.jpg"
+          ],
+          "subContent": [
+            {
+              "title": "Programación funcional",
+              "content": [
+                "Las funciones existen en cualquier lenguaje de programación estándar. Sin embargo, los enfoques funcionales del desarrollo de software cuentan con funciones de una clase especial:",
+                "Un programa de programación funcional consta de llamadas de función concatenadas en las que cada parte del programa se interpreta como una función. En este sentido, las funciones dentro de la programación funcional pueden adoptar distintas “estructuras”. Por ejemplo, se pueden vincular entre sí como datos o se pueden utilizar en forma de parámetros. Asimismo, se pueden utilizar como resultados de función. En contraposición, el paradigma se ocupa de que no haya asignaciones independientes de valores.",
+                "Los subtipos de la programación declarativa son muy importantes para la informática en general y al mismo tiempo cuentan con aplicaciones muy versátiles. El tratamiento especial de funciones permite a los programadores que trabajan de forma funcional componer y aplicar nuevas normas de cálculo de gran alcance a partir de funciones."
+              ],
+              "assets": [
+                "http://ferestrepoca.github.io/paradigmas-de-programacion/progfun/funcional_teoria/images/function.jpg"
+              ]
+            },
+            {
+              "title": "Programación lógica",
+              "content": [
+                "El paradigma de software lógico, denominado también como programación predicativa, se basa en la lógica matemática. En lugar de una sucesión de instrucciones, un software programado según este principio contiene un conjunto de principios que se pueden entender como una recopilación de hechos y suposiciones. Todas las solicitudes al programa se procesan de forma que el intérprete recurre a estos principios y les aplica reglas definidas previamente para alcanzar el resultado deseado."
+              ],
+              "assets": [
+                "https://example99438.files.wordpress.com/2016/02/adiestramiento.jpg?w=640"
+              ]
+            }
+          ]
+        },
+
+        {
+          "title": "POO",
+          "url": "poo",
+          "content": [
+            "Cuando nos referimos a una manera de programar, lo que se denomina paradigma, donde basamos nuestro trabajo en la gestión de objetos, estamos hablando de programación orientada a objetos (POO en español, OOP en inglés). La programación estructurada ha derivado hacia los lenguajes de programación orientada a objetos, siendo actualmente la que más se utiliza para diseñar aplicaciones y programas informáticos.",
+            "La POO fue una revolución en los años 80, aportando una nueva visión del mundo de la programación al aportar un enfoque distinto a los lenguajes tradicionales imperativos procedurales. La programación orientada a objetos introdujo una nueva forma de organizar el código de un programa, agrupándolo por objetos, que en sí son elementos individuales que contienen funciones e información."
+          ],
+          "assets": [],
+          "subContent": [
+            {
+              "title": "Lenguajes de Programación Orientada a Objetos",
+              "content": [
+                "Para considerar un lenguaje de programación como orientado a objetos se deben cumplir varias condiciones. Debe soportar objetos, que deben tener un tipo o clase asociado y que estas clases puedan heredar atributos de una clase superior o superclase.",
+                "Actualmente existen una gran variedad de lenguajes de programación orientados a objetos entre los que podemos destacar: C++, Objective C (es el lenguaje principal de programación para Mac OS X , iOS), Java, Ruby, Visual Basic, Visual C Sharp, Perl, Smalltalk, PHP o Python.",
+                "C++ junto con Java, son los dos lenguajes de programación orientada a objetos más utilizados actualmente (según datos proporcionados por el índice de programación Tiobe). Por lo tanto, cuando se quiere acceder a un curso de programación orientada a objetos, siempre hay que tener ambos lenguajes en cuenta, sobre todo para ampliar las opciones de encontrar ofertas de empleo en el mercado laboral.",
+                "Python, PHP y Ruby son tipos de lenguajes de programación orientada a objeto muy populares y enfocados a la programación y desarrollo web (este tipo de programación, así como las aplicaciones para móviles son ejemplos de la programación orientada a objetos)."
+              ],
+              "assets": ["https://i.imgur.com/aBlu9Gy.png"]
+            },
+            {
+              "title": "Ventajas de la Programación Orientada a Objetos",
+              "content": [
+                "Son muchas las ventajas de una programación POO para el programador. A continuación enumeramos algunas de ellas.",
+                "Modificabilidad: en la POO es sencillo añadir, modificar o eliminar nuevos objeto o funciones que nos permiten actualizar programas fácilmente.",
+                "Gestión de los errores: cuando se trabaja con un lenguaje POO se sabe exactamente dónde mirar cuando se produce un error, ventaja del trabajo modular de los lenguajes POO. Al poder dividir los problemas en partes más pequeñas se pueden probar de manera independiente y aislar los errores que puedan producirse en el futuro.",
+                "Trabajo en grupo: es más fácil trabajar en grupo gracias al encapsulamiento, que permite minimizar la posibilidad de duplicar funciones cuando varias personas trabajan sobre un mismo objeto al mismo tiempo.",
+                "Herencia: crear una única clase y compartir muchas de sus propiedades con múltiples subclases, permite ahorrar mucho trabajo. Al hacer un cambio en la clase, automáticamente todas las subclases adoptarán el mismo.",
+                "Reducción de costes de programación: especialmente en proyectos grandes la POO reduce los costos de programación ya que se los programadores pueden usar el trabajo de los otros, ahorrando horas de desarrollo. Crear librerías y compartirlas o reutilizar librerías de otros proyectos es algo habitual en la programación orientada a objetos."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-photo/colleagues-giving-fist-bump_53876-64857.jpg"
+              ]
+            }
+          ]
+        },
+
+        {
+          "title": "Elementos de la POO",
+          "url": "elementos_poo",
+          "content": [
+            "Para poder programar en un lenguaje de PPO hay que tener claro una serie de conceptos fundamentales como son Objeto, Clase, Herencia, Objeto, Método, Evento, Atributos y propiedades. Estos conceptos amplían y superan conceptos ya conocidos de la programación tradicional."
+          ],
+          "assets": [
+            "https://cdn.ttgtmedia.com/rms/onlineimages/whatis-object_oriented_programming_half_column_mobile.png",
+            "https://holycoders.com/content/images/wordpress/2019/12/Object-Oriented-Programming.png",
+            "https://api.ed.team/public-files/bloginlineimg/601dfa15-dfc9-4499-9a59-1b467d1d8685.png"
+          ],
+          "subContent": [
+            {
+              "title": "Objeto",
+              "content": [
+                "Se trata de un ente abstracto permite separar los diferentes componentes de un programa, simplificando así su elaboración, depuración y posteriores mejoras Los objetos integran, a diferencia de los métodos procedurales, tanto los procedimientos como las variables y datos referentes al objeto.",
+                "A los objetos se les otorga ciertas características en la vida real. Cada parte del programa que se desea realizar es tratado como objeto, siendo así estas partes independientes las unas de las otras. Los objetos se componen de 3 partes fundamentales: métodos, eventos y atributos."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Métodos",
+              "content": [
+                "Son aquellas funciones que permite efectuar el objeto y que nos rinden algún tipo de servicio durante el transcurso del programa. Estos determinan a su vez como va a responder el objeto cuando recibe un mensaje."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Eventos",
+              "content": [
+                "Son aquellas acciones mediante las cuales el objeto reconoce que se está interactuando con él. De esta forma el objeto se activa y responde al evento según lo programado en su código."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Atributos:",
+              "content": [
+                "Características que aplican al objeto solo en el caso en que el sea visible en pantalla por el usuario; entonces sus atributos son el aspecto que refleja, tanto en color, tamaño, posición, si está o no habilitado."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Mensajes:",
+              "content": [
+                "Aunque los objetos se han de diferenciar claramente en una aplicación, estos se han de poder comunicar para poder trabajar en conjunto y construir así aplicaciones. Esto se hace posible a través de lo que se denomina paso de mensajes. Cuando un objeto quiere comunicarse con otro lo que hace es enviarle un mensaje con los datos que desea transmitir.",
+                "La potencia de este sistema radica en que el objeto emisor no necesita saber la forma en que el objeto receptor va a realizar la acción. Simplemente este la ejecuta y el emisor se desentiende del como; de hecho ni le importa, solo tiene conocimiento de que se está realizando. Para que todo esto sea posible es necesario una buena programación de los eventos y de los métodos de cada objeto. El conjunto de mensajes a los que un objeto puede responder se denomina protocolo del objeto."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Instancia:",
+              "content": [
+                "Se llama instancia a todo objeto que derive de algún otro. De esta forma, todos los objetos son instancias de algún otro, menos la clase Object que es la madre de todas."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Clases",
+              "content": [
+                "Descripción de objeto. Consta de una serie de métodos y datos que resumen las características de este objeto. Definir clases permite trabajar con código reutilizable. Puesto que desde una clase se puede crear una instancia y así reutilizar el código escrito para esta si tener que volver a escribir el código para la instancia. La instancia toma el patrón de la clase padre. Sin embargo, las variables son independientes."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Herencia",
+              "content": [
+                "Mecanismo para compartir automáticamente métodos y datos entre clases, subclases y objetos. Permite crear nuevas clases introduciendo las variaciones con respecto a su clase padre."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Herencia simple",
+              "content": [
+                "Una subclase puede heredar datos y métodos de una clase simple así como añadir o sustraer ciertos comportamientos."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Herencia múltiple",
+              "content": [
+                "Posibilidad de adquirir métodos y datos de varias clases simultáneamente."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Encapsulación",
+              "content": [
+                "Define el comportamiento de una clase u objeto que tiene dentro de él todo tipo de métodos y datos, pero que solo es accesible mediante el paso de mensajes y datos a través de los métodos del objeto/clase."
+              ],
+              "assets": []
+            },
+
+            {
+              "title": "Polimorfismo",
+              "content": [
+                "Los objetos responden a los mensajes que se les envían. Un mismo mensaje puede ser interpretado o dar paso a distintas acciones según que objeto es el destinatario. Con este sistema el emisor se desentiende de los detalles de la ejecución (aunque el programador ha de saber en todo momento cuáles son las consecuencias de ese mensaje)"
+              ],
+              "assets": []
+            }
+          ]
+        },
+
+        {
+          "title": "Diagramas UML",
+          "url": "diagramas_uml",
+          "content": [
+            "El Lenguaje Unificado de Modelado (UML) fue creado para forjar un lenguaje de modelado visual común y semántica y sintácticamente rico para la arquitectura, el diseño y la implementación de sistemas de software complejos, tanto en estructura como en comportamiento. UML tiene aplicaciones más allá del desarrollo de software, p. ej., en el flujo de procesos en la fabricación.",
+            "Es comparable a los planos usados en otros campos y consiste en diferentes tipos de diagramas. En general, los diagramas UML describen los límites, la estructura y el comportamiento del sistema y los objetos que contiene. UML no es un lenguaje de programación, pero existen herramientas que se pueden usar para generar código en diversos lenguajes usando los diagramas UML. UML guarda una relación directa con el análisis y el diseño orientados a objetos."
+          ],
+          "assets": [
+            "https://diagramasuml.com/wp-content/uploads/2018/12/umlogo.png"
+          ],
+          "subContent": [
+            {
+              "title": "UML y su función en el modelado y diseño orientados a objetos",
+              "content": [
+                "Hay muchos paradigmas o modelos para la resolución de problemas en la informática, que es el estudio de algoritmos y datos. Hay cuatro categorías de modelos para la resolución de problemas: lenguajes imperativos, funcionales, declarativos y orientados a objetos (OOP). En los lenguajes orientados a objetos, los algoritmos se expresan definiendo 'objetos' y haciendo que los objetos interactúen entre sí. Esos objetos son cosas que deben ser manipuladas y existen en el mundo real. Pueden ser edificios, artefactos sobre un escritorio o seres humanos.",
+                "Los lenguajes orientados a objetos dominan el mundo de la programación porque modelan los objetos del mundo real. UML es una combinación de varias notaciones orientadas a objetos: diseño orientado a objetos, técnica de modelado de objetos e ingeniería de software orientada a objetos.",
+                "UML usa las fortalezas de estos tres enfoques para presentar una metodología más uniforme que sea más sencilla de usar. UML representa buenas prácticas para la construcción y documentación de diferentes aspectos del modelado de sistemas de software y de negocios."
+              ],
+              "assets": [
+                "https://drawio-app.com/wp-content/uploads/2018/01/uml-class-diagrams-with-draw.io_.png"
+              ]
+            },
+            {
+              "title": "La historia y los orígenes de UML",
+              "content": [
+                "The Three Amigos (los tres amigos) de la ingeniería de software, como se los conocía, habían desarrollado otras metodologías. Se asociaron para brindar claridad a los programadores creando nuevos estándares. La colaboración entre Grady, Booch y Rumbaugh fortaleció los tres métodos y mejoró el producto final.",
+                "Los esfuerzos de estos pensadores derivaron en la publicación de los documentos UML 0.9 y 0.91 en 1996. Pronto se hizo evidente que varias organizaciones, incluidas Microsoft, Oracle e IBM, consideraron que UML era esencial para su propio desarrollo de negocios. Ellos, junto con muchas otras personas y compañías, establecieron los recursos necesarios para desarrollar un lenguaje de modelado hecho y derecho. Los tres amigos publicaron la Guía del usuario para el Lenguaje Unificado de Modelado en 1999, y una actualización que incluye información sobre UML 2.0 en la segunda edición de 2005."
+              ],
+              "assets": [
+                "https://userscontent2.emaze.com/images/dface736-80e3-4a4d-9188-666485a7d772/d1dad01f-e92d-418b-8baf-2a870f0e5c5a.png"
+              ]
+            }
+          ]
         }
       ]
     },
