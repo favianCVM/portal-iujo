@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./ScrollTop.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleUp } from "@fortawesome/free-solid-svg-icons";
@@ -6,15 +6,28 @@ import { faArrowAltCircleUp } from "@fortawesome/free-solid-svg-icons";
 const ScrollTop = () => {
   const [visible, setVisible] = useState(false);
 
+  const [didMount, setDidMount] = useState(false);
+
   const checkScrollTop = () => {
     if (!visible && window.pageYOffset > 500) {
-      setVisible(true);
+      if (visible) return;
+      else setVisible(true);
     } else if (visible && window.pageYOffset <= 400) {
-      setVisible(false);
+      if (!visible) return;
+      else setVisible(false);
     }
   };
 
   window.addEventListener("scroll", checkScrollTop);
+
+  useEffect(() => {
+    setDidMount(true);
+    return () => setDidMount(false);
+  }, []);
+
+  if (!didMount) {
+    return null;
+  }
 
   return (
     <button
