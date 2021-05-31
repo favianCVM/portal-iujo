@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Article.scss";
 import Navigator from "../Navigator/Navigator";
+import ScrollTop from "../ScrollTop/ScrollTop";
 
 const Article = ({ content, objective, contentIndex }) => {
   const [article, setArticle] = useState([]);
@@ -93,7 +94,8 @@ const Article = ({ content, objective, contentIndex }) => {
   return (
     <article className="article">
       {article}
-      {<Navigator contentIndex={contentIndex} />}
+      <Navigator contentIndex={contentIndex} />
+      <ScrollTop />
     </article>
   );
 };
