@@ -19,9 +19,11 @@ const SideBar = () => {
       <div className="sidebar-dropdown">
         <SearchBar data={data} />
         <History />
-        {data.map((item) => (
-          <ContentList key={item.theme} content={item} />
-        ))}
+        <div className="sidebar-content-list-container">
+          {data.map((item) => (
+            <ContentList key={item.theme} content={item} />
+          ))}
+        </div>
         <Link className="terms-glosary__link" to="/term_glosary">
           Glosario de términos
         </Link>
