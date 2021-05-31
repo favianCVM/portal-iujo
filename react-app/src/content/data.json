@@ -370,7 +370,7 @@
               ]
             },
             {
-              "title": "",
+              "title": "Burndown charts",
               "content": [
                 "Un tipo de tabla utilizada en metodologías ágiles para medir la cantidad de trabajo restante contra el tiempo. En inglés es conocida como Burndown Chart, un gráfico de trabajo pendiente típico representará el trabajo sobresaliente (número de funciones, días ideales, días de equipo, etc.) en el eje vertical, y el tiempo (días, iteraciones, sprints, etc.) en el eje horizontal.",
                 "Los gráficos de trabajo pendiente son muy útiles para medir el progreso real del trabajo en comparación con el progreso ideal del trabajo, y detectar los posibles retrasos en los horarios y los problemas de ritmo de trabajo desde el principio."
