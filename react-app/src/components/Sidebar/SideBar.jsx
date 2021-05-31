@@ -1,7 +1,7 @@
 import React from "react";
 import "./SideBar.scss";
 import { HashLink as Link } from "react-router-hash-link";
-import { data } from "../../content/placeholder.json";
+import { data } from "../../content/data.json";
 import SearchBar from "../SearchBar/SearchBar";
 import History from "../History/History";
 import ContentList from "../ContentList/ContentList";

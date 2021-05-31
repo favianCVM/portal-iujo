@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { data } from "../../content/placeholder.json";
+import { data } from "../../content/data.json";
 import "./History.scss";
 
 const History = () => {

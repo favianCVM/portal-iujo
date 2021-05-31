@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navigator.scss";
 import { useHistory } from "react-router-dom";
-import { data } from "../../content/placeholder.json";
+import { data } from "../../content/data.json";
 
 const Navigator = ({ contentIndex }) => {
   const history = useHistory();

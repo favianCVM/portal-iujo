@@ -1,0 +1,510 @@
+{
+  "data": [
+    {
+      "theme": "Programación orientada a objetos",
+      "content": [
+        {
+          "title": "Paradigmas",
+          "url": "paradigmas",
+          "content": [],
+          "assets": [],
+          "subContent": []
+        },
+        {
+          "title": "Conceptos de POO",
+          "url": "conceptos_poo",
+          "content": [],
+          "assets": [],
+          "subContent": []
+        },
+        {
+          "title": "Uso de UML en la POO",
+          "url": "uso_uml_en_poo",
+          "content": [],
+          "assets": [],
+          "subContent": []
+        },
+        {
+          "title": "Abstracción",
+          "url": "abstraccion",
+          "content": [],
+          "assets": [],
+          "subContent": []
+        },
+        {
+          "title": "Ventajas del uso de POO",
+          "url": "ventajas_poo",
+          "content": [],
+          "assets": [],
+          "subContent": []
+        }
+      ]
+    },
+    {
+      "theme": "Desarrollo Web",
+      "content": [
+        {
+          "title": "Ciclo de vida del software",
+          "url": "ciclo_vida_software",
+          "content": [
+            "El ciclo de vida del desarrollo de software (en inglés: SDLC – Systems Development Life Cycle) es la estructura que contiene los procesos, actividades y tareas relacionadas con el desarrollo y mantenimiento de un producto de software, abarcando la vida completa del sistema, desde la definición de los requisitos hasta la finalización de su uso."
+          ],
+          "assets": [
+            "https://upload.wikimedia.org/wikipedia/commons/5/51/Waterfall_model.png"
+          ],
+          "subContent": [
+            {
+              "title": "Comunicación con el cliente",
+              "content": [
+                "Es el estudio estratégico del proyecto. La primera misión es entender las necesidades específicas del cliente, comprender su negocio y el contexto. Esto para amoldar las ideas y el flujo de desarrollo en son de cumplir con las expectativas del cliente."
+              ],
+              "assets": [
+                "https://media.istockphoto.com/vectors/discussion-and-communication-in-the-office-vector-id1070519266?k=6&m=1070519266&s=612x612&w=0&h=r7dceESbFfxgPRevPfFtNyQIrPIWAezcM7g1YVLv3SA="
+              ]
+            },
+            {
+              "title": "Requisitos del sistema ",
+              "content": [
+                "Este paso implica dividir el sistema en diferentes piezas y elaborar diagramas para analizar la situación, analizar los objetivos del proyecto. Su objetivo principal es continuar con la definición del sistema software a desarrollar, tomando como punto de partida los requisitos generales y los casos de usos en su versión inicial, y considerando los objetivos de negocio y el modelo de negocio a implantar. Los casos de uso que se considere necesario, se van completando con más información y los requisitos generales se van detallando en requisitos funcionales, no funcionales, de integración y en restricciones técnicas."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/approval-mark-product-advantage-rating-reviews-meeting-requirements_335657-3106.jpg"
+              ]
+            },
+            {
+              "title": "Estudio de viabilidad",
+              "content": [
+                "Con recursos ilimitados (tiempo y dinero), casi cualquier proyecto se podría llevar a buen puerto. Por desgracia, en la vida real los recursos son más bien escasos, por lo que no todos los proyectos son viables. Después de la recolección de requisitos, el equipo idea un plan para procesar el software. En esta fase, el equipo analiza si el software puede hacerse para cubrir todos los requisitos del usuario y si hay alguna posibilidad de que el software ya no sea necesario. Se investiga si el proyecto es viable a nivel financiero, práctico, y a nivel tecnológico para que la organización acepte la oferta."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/bankruptcy-concept-flat-style_23-2148494924.jpg"
+              ]
+            },
+            {
+              "title": "Análisis del sistema",
+              "content": [
+                "En este paso los desarrolladores trazan su plan e intentan crear el mejor y más conveniente modelo de software para el proyecto. El análisis del sistema incluye el entendimiento de las limitaciones del producto Software; el aprendizaje de los problemas relacionados con el sistema; los cambios que se requieren en sistemas ya existentes con antelación, identificando y dirigiendo el impacto del proyecto a la organización y al personal, etc. El equipo del proyecto analiza las posibilidades del proyecto y planifica la temporización y los recursos correspondientes."
+              ],
+              "assets": [
+                "https://www.freevector.com/uploads/vector/preview/27265/Free-Technology-Vector-2.jpg"
+              ]
+            },
+            {
+              "title": "Diseño de software",
+              "content": [
+                "El siguiente paso es diseñar el producto software con la ayuda de toda la información recogida sobre requisitos y análisis. Los inputs (aportaciones) de los usuarios y los resultados de la recogida de información hecha en la fase anterior serán las aportaciones base de la fase actual. El output (o resultado) de esta etapa toma la forma de 2 diseños; El diseño lógico y el diseño físico. Los ingenieros crean meta-data (Metadatos), Diagramas lógicos, diagramas de flujo de datos, y en algunos casos pseudocódigos."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/app-development-illustration_52683-47931.jpg"
+              ]
+            },
+            {
+              "title": "Codificación",
+              "content": [
+                "En esta etapa el equipo de desarrollo encargado de la programación del proyecto se pone manos a la obra, tomando decisiones acerca de que lenguajes, herramientas y metodologías utilizar para la construcción del software, y por consecuente la codificación del proyecto."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/pair-programming-concept-illustration_114360-3941.jpg"
+              ]
+            },
+            {
+              "title": "Pruebas",
+              "content": [
+                "Esta etapa tiene como objetivo detectar los errores que se hayan podido cometer en las etapas anteriores del proyecto (y, eventualmente, corregirlos). Lo suyo, además, es hacerlo antes de que estos lleguen al usuario final del sistema. En esta etapa se suele realizar pruebas de unidad, las cuales consisten en comprobar el correcto funcionamiento de un componente concreto de nuestro sistema. En este tipo de pruebas, el encargado de los tests debe buscar situaciones límite que expongan las limitaciones de la implementación del componente. Resulta recomendable que, conforme vamos añadiéndole nueva funcionalidad a nuestras aplicaciones, vayamos creando nuevos tests con las medidas obtenidas con nuestro progreso y también repitamos los antiguos para comprobar que lo que antes funcionaba sigue funcionando (test de regresión)."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/hand-drawn-checklist-background_23-2148070711.jpg"
+              ]
+            },
+            {
+              "title": "Integración",
+              "content": [
+                "En esta etapa se juntan todos los componentes que conforman nuestro sistema para detectar errores en su funcionamiento o interfaces. En algunas empresas, como Microsoft, se hace una compilación diaria utilizando los componentes del sistema tal como estén en ese momento (daily build) y se somete al sistema a una serie de pruebas básicas (la prueba de humo, smoke test) que garanticen que el proyecto podrá seguir avanzando al día el ciclo de vida de un sistema de información."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/character-couple-solving-puzzle-pieces-illustration_53876-32627.jpg"
+              ]
+            },
+            {
+              "title": "Implementación",
+              "content": [
+                "Aquí se instala el software en máquinas de clientes. A veces, el software necesita instalar configuraciones para el consumidor final con posterioridad. El Software se evalúa por su adaptabilidad y su portabilidad, en cuanto a las cuestiones relacionadas con la integración y conceptos asociados, se resuelven durante la implementación."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/isometric-online-delivery-illustration_146998-4394.jpg"
+              ]
+            },
+            {
+              "title": "Operaciones y mantenimiento",
+              "content": [
+                "Esta etapa está relacionada con las operaciones del día a día. Por lo general, consiste en introducir los ajustes necesarios para mejorar el rendimiento y corregir los problemas que puedan surgir. Una vez concluye la etapa de implementación se suele abrir un periodo de operación supervisada, durante el que las actividades de mantenimiento cobran una especial importancia, al orientarse a hacer backups, dar soporte a los usuarios, resolver fallos, optimizar el sistema para cuestiones relacionadas con la seguridad o la velocidad y revisar el software para garantizar la alineación con las metas del negocio."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/maintenance-concept-illustration_114360-391.jpg"
+              ]
+            },
+            {
+              "title": "Disposición",
+              "content": [
+                "Con el paso del tiempo puede que el software falle en su ejecución, puede que se vuelva totalmente obsoleto o que necesite actualizaciones. De ahí surge una necesidad urgente de eliminar una parte importante del sistema. Esta fase incluye archivar datos y componentes software requeridos, cierre del sistema, planificación de la actividad de disposición y terminación de sistema en el momento final del sistema."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/house-moving-concept_23-2148676926.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Industria del desarrollo de software",
+          "url": "industria_desarrollo_software",
+          "content": [
+            "Desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para conseguirlo se hace uso de tecnologías de software del lado del servidor y del cliente que involucran una combinación de procesos de base de datos con el uso de un navegador web a fin de realizar determinadas tareas o mostrar información.",
+            "Tradicionalmente un software departamental o incluso un ambicioso proyecto corporativo de gran envergadura es desarrollado en forma stand alone, es decir, usando lenguajes ya sea compilados(C, C++, Delphi), semi compilados (.NET, Mono, Java), o interpretados (Python, PHP) para crear tanto la funcionalidad como toda la interfaz de los usuarios, pero cabe perfectamente un desarrollo orientado a web para dichos propósitos, siendo más homogéneo y multiplataforma, y dependiendo de las tecnologías utilizadas, más rápido y robusto tanto para diseñar, implementar y probar, como para su uso una vez terminado.",
+            "Hoy en día es indiscutible la relevancia que tiene el software en nuestra vida diaria, la realidad es que nuestra alimentación, salud, entretenimiento y otras necesidades básicas están administradas y en cierta parte suministrada mediante software, la utilidad y ayudas que estas brindan es tal, que las empresas de software buscan especializarse en campos específicos como la medicina, la mecánica o hasta la agricultura, no existe límite en los campos de aplicación del software.",
+            "Por todo esto y más, la industria del desarrollo del software durante estos últimos años ha visto un gran auge gracias a algunas grandes compañías de software que sustentan los primeros lugares en desarrollo de software popular entre los usuarios. Compañías como Alphabet (dueña de google entre otras), Facebook, Amazon o Apple, son grandes ejemplos de empresas que su principal producto se basa en software, el cual usa la gran población en su día a día."
+          ],
+          "assets": [],
+          "subContent": [
+            {
+              "title": "Que es un desarrollador web",
+              "content": [
+                "Un desarrollador web es un especialista en la construcción y ejecución de páginas y aplicaciones web. Mediante el manejo de lenguajes de programación como HTML, Java y Python, por mencionar sólo algunos, un desarrollador web es el responsable de, además de la creación y ejecución, del mantenimiento de un sitio web y de hacer que las interfaces visuales, es decir, lo que ve el usuario como resultado final, respondan de manera adecuada a las acciones que se les asignan y a que sean funcionales en cualquier plataforma (equipos de cómputo de escritorio, dispositivos móviles o tablets).",
+                "Este profesional es el encargado de configurar una página web por completo, desde establecer el estilo visual en el que los menús de la página se desplegarán y la forma en la que responderán, hasta definir cómo es que actuarán los comandos de registro, búsqueda y descarga con los que las personas interactúan con el sitio: formularios sencillos, de opción múltiple, distintos tipos de menús, elementos multimedia como videos, imágenes de fondo, etc.",
+                "Hoy en día el desarrollador web se ha vuelto un perfil de los más demandados y mejor pagados en el mercado laboral. ¿Por qué razón? La presencia de empresas y organizaciones en la web se ha vuelto un requisito fundamental para la captación de clientes y para la promoción de su marca. Sin embargo, el número de profesionales dedicados a este ámbito sigue siendo insuficiente y las vacantes para ellos se han convertido en oportunidades laborales muy bien remuneradas."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+              ]
+            },
+            {
+              "title": "La innovación detrás del desarrollo de software",
+              "content": [
+                "La innovación ha sido quien moviliza los recursos tecnológicos a la aplicación de nuevos conceptos en la comunicación (y en los procesos de producción en la descomposición de las cadenas productivas) provocando un funcionamiento del mercado más rápido, eficiente y competitivo, reduciendo los costes de transporte y ampliando la frontera de posibilidades de producción en la medida en que las economías de escala permitan el sostenimiento de la industria.",
+                "De acuerdo a lo anterior, la industria de la comunicación, se traduce en el desarrollo de paquetes informáticos poderosos configurados bajo la denominación de “software” que además utilizan un lenguaje universal a través de la codificación binaria y la extensión de funciones en periodos de tiempo corto. Hablaremos aquí de la integración de estos procesos de digitalización, observando la acomodación de la sociedad a estas formas de interacción y la extensión del mercado al interactuar en una economía que nada tiene de autárquica en las condiciones actuales.",
+                "Este tipo de organización económica tendiente a los procesos de aplicación tecnológica exige la conformación de un núcleo social capacitado de manera que el conocimiento se apropia de los procesos de producción y obliga  a la inversión tanto del sector público como privado en la capacitación del capital social a manera de estrategia competitiva con la extensión del mercado. La capacidad instalada de la economía también se extiende hacia la conformación de laboratorios de investigación y centros de desarrollo tecnológico."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/isometric-web-hosting-support-composition-with-tech-support-online-clients_1284-54457.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Metodologías de desarrollo de software",
+          "url": "metodologias_desarrollo_software",
+          "content": [
+            "Una metodología de desarrollo de software no es más que una serie de pasos que se realizan de forma rigurosa tal que su resultado a partir de unos requisitos nuevos o modificados sea un software nuevo o modificado. Las metodologías de desarrollo nos aporta mucho, pero su principal aportación al desarrollo es calidad, y con calidad estamos refiriendo a que los requisitos planteados sean satisfechos. Gracias a esto se puede medir la calidad de un producto basándose en los requisitos iniciales.",
+            " También estas nos aportan una forma de estimar y controlar los costes. Así podemos saber cuanto se va a tardar en realizarlo y si es o no rentable llevarlo a cabo antes de realizar la inversión completa de tiempo, dinero y esfuerzo. También se evita una perdida de esfuerzos en rectificar fallos que se pueden evitar usando una metodología adecuada. Metodologías hay muchas, y con el constante desarrollo de nuevas tecnologías y metodologías que se adecuan a necesidades específicas, estas siempre están en constante evolución. Por nombrar y describir algunas tenemos:"
+          ],
+          "assets": [],
+          "subContent": [
+            {
+              "title": "Modelo cascada",
+              "content": [
+                "Es un proceso de desarrollo secuencial de proyectos que suele utilizarse en el desarrollo de software. Esta metodología concibe el trabajo en un conjunto de etapas que deben ejecutarse una tras otra. Su nombre viene dado por las diferentes fases que componen el proyecto, ya que deben colocarse una encima de otra siguiendo un orden concreto y estricto de arriba hacia abajo. No podemos, por ejemplo, empezar la fase de diseño sin haber terminado la de los requisitos. Cascada impulsa la filosofía paso a paso usando bloques de tareas, por lo cual esta metodología se conforma por los siguientes pasos: ",
+                "Análisis de requisitos del sistema y del software: A partir de consultas con los usuarios, se analiza qué servicios, restricciones y metas del sistema existen. Se detallan y se utilizan como base de la que partir.",
+                "Diseño: Se establece la arquitectura completa del sistema y, a grandes rasgos, se describen las partes que deben formar el producto o servicio final.",
+                "  Implementación y testing de unidades: Se ejecuta el software como un conjunto o unidad de programas para verificar que cada unidad cumpla con su especificación.",
+                "Integración y testing del sistema: Cada una de las partes del software que forman el producto final se integran y prueban como un sistema completo para asegurar que cumple con todos los requisitos. Tras esta etapa, el producto o servicio se entrega al cliente.",
+                "Mantenimiento: Suele tratarse de la fase más larga del ciclo de desarrollo. Se instala el sistema y se pone en marcha. A partir de este punto, el desarrollo se centra en la corrección de errores no descubiertos en las etapas anteriores, en mejorar el sistema y adaptar sus servicios si aparecen nuevos requerimientos.",
+                "Por lo general, la finalización de cada una de las fases tiene como resultado la generación de un documento firmado y aprobado. Sin embargo, el proceso de desarrollo real no es nunca lineal, por lo que pueden darse problemas si no se aplican una serie de iteraciones entre las diferentes partes del proceso. Por todo ello, este modelo es recomendable si es poco probable que los requerimientos vayan a cambiar radicalmente durante el desarrollo del sistema."
+              ],
+              "assets": [
+                "https://parasitovirtual.files.wordpress.com/2010/06/modelo-en-cascada.png?w=640"
+              ]
+            },
+            {
+              "title": "Modelo repetitivo",
+              "content": [
+                "Este modelo guía el proceso de desarrollo de software en repeticiones. Proyecta el proceso de desarrollo de forma cíclica repitiendo cada paso después de cada ciclo en el proceso del SDLC (Systems Development Life Cycle o Ciclo de desarrollo de sistemas). El software primero se desarrolla en menor escala y se siguen y tienen en consideración todos los pasos. Entonces, por cada repetición, más módulos y características son diseñados, codificados, evaluados y añadidos al software. Cada ciclo produce un software completo, con más características y capacidad que los previos.",
+                "Después de cada repetición, el equipo directivo puede concentrarse en la gestión de riesgos y prepararse para la siguiente repetición. Como el ciclo incluye pequeñas porciones de la totalidad del proceso software, es más fácil gestionar el proceso de desarrollo, pero a la vez se consumen más recursos."
+              ],
+              "assets": [
+                "https://www.tutorialspoint.com/sp/software_engineering/images/sdlc_iterative.png"
+              ]
+            },
+            {
+              "title": "Modelo espiral",
+              "content": [
+                "El modelo en espiral es una combinación de ambos modelos, el repetitivo y uno del modelo SDLC. Se puede ver como si se combina un modelo de SDLC combinado con un proceso cíclico (modelo repetitivo). Este modelo considera el riesgo, factor que otros modelos olvidan o no prestan atención en el proceso. El modelo empieza determinando los objetivos y las limitaciones del software al inicio de cada repetición. En la siguiente etapa se crean los modelos de prototipo del software. Esto incluye el análisis de riesgos. Luego un modelo estándar de SDLC se usa para construir el software. En la cuarta etapa es donde se prepara el plan de la siguiente repetición."
+              ],
+              "assets": [
+                "https://www.tutorialspoint.com/sp/software_engineering/images/sdlc_spiral.png"
+              ]
+            },
+            {
+              "title": "Modelo V",
+              "content": [
+                "El mayor inconveniente del modelo de cascada es que solo se pasa a la siguiente fase cuando se completa la anterior, por tanto no es posible volver atrás si se encuentra algún error en las etapas posteriores. El Modelo V aporta opciones de evaluación del software en cada etapa de manera inversa.",
+                "En cada etapa, se crea la planificación de las pruebas y los casos de pruebas para verificar y validar el producto según los requisitos de la etapa. Por ejemplo, en la etapa de recogida de requisitos, el equipo de evaluadores prepara las pruebas de caso correspondientes a los requisitos. Más tarde, cuando el producto se desarrolla y está preparado para ser evaluado, las pruebas de caso en esta etapa verifican el software y su validez según sus requisitos. Esto hace que tanto la verificación como la validación vayan en paralelo. Este modelo también se conoce como modelo de validación y verificación."
+              ],
+              "assets": [
+                "https://www.tutorialspoint.com/sp/software_engineering/images/sdlc_vmodel.png"
+              ]
+            },
+            {
+              "title": "Modelo Bigbang",
+              "content": [
+                "Este modelo es el modelo con la forma más simple. Requiere poca planificación, mucha programación y también muchos fondos. Este modelo se conceptualiza alrededor de la teoría de creación del universo “Big Bang”. Tal como cuentan los científicos, después del big bang muchas galaxias, planetas y estrellas evolucionaron. De la misma manera, si reunimos muchos fondos y programación, quizá podemos conseguir el mejor producto de software.",
+                " Para este modelo, se requiere poca planificación. No sigue ningún proceso concreto, y a veces el cliente no está seguro de las futuras necesidades y requisitos. Por tanto la entrada o input respecto a los requisitos es arbitraria. Este modelo no es recomendable para grandes proyectos de software, pero es bueno para aprender y experimentar."
+              ],
+              "assets": [
+                "https://www.tutorialspoint.com/sp/software_engineering/images/sdlc_bigbang.png"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Diferencias y similitudes de los tipos de desarrollo de software",
+          "url": "diferencias_tipos_desarrollo",
+          "content": [
+            "Los tipos de software son los diferentes conjuntos de programas y aplicaciones que se forman con base en sus distintas funciones y características. En otras palabras, si bien el software en general posee características comunes, también se dan especificaciones que forman varios grupos con características propias que lo diferencian del resto.",
+            "Por lo que, para poder comparar lo que hace el desarrollo web diferente a otros tipos de desarrollo, primero tenemos que tener en cuenta que hace específicamente un desarrollador web. El rol de este desarrollador está destinado a codificar, diseñar y mantener sitios y aplicaciones web, a su vez, también es responsable de definir la interfaz gráfica para hacerla atractiva al usuario, todo esto mediante código complejo, con lenguajes de programación como JavaScript, Python, PHP o Ruby; como también de procurar la mejor apariencia del sitio mediante un diseño visual de calidad acuerdo al proyecto.",
+            " Partiendo de esta información, el desarrollo web se distancia a otros tipos de desarrollos como el desarrollo de software sistema, software de programación o de aplicación."
+          ],
+          "assets": [
+            "https://image.freepik.com/free-vector/person-with-light-bulb-head-standing-out-illustration_53876-26816.jpg"
+          ],
+          "subContent": [
+            {
+              "title": "Software de sistema",
+              "content": [
+                "El software de sistema, digamos que es la parte esencial, en ella no solamente podemos clasificar los sistemas operativos como Linux, Windows o Mac, también debemos agregar aquel software que permite la comunicación entre el Hardware y el sistema operativo, los controladores de sistema (Kernel) para la ejecución de diversos sectores de la computadora e incluso programas que son capaces de administrar los recursos y de proporcionarle al usuario una bella interfaz para que pueda controlar la computadora de una forma muy sencilla."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/human-use-computer-control-robot-arms-working-procuction-convoyed-smart-factory-industry-4_1150-43048.jpg"
+              ]
+            },
+            {
+              "title": "Software de Programación",
+              "content": [
+                "Está claro que para que puedan existir diversos programas, primero debe haber personas encargadas del desarrollo de sistemas, en este caso haciendo uso de software de programación, por eso la clasificación continua en este punto, después de que el sistema operativo es la base de todo, la programación le sigue muy detrás, un software que ayuda en la creación y desarrollo de aplicaciones, haciendo uso de conocimientos lógicos y de programación.",
+                "Algunos ejemplos de esto, son los compiladores y los editores de texto, un conjunto de software que trabaja de la mano uno con el otro, el programador desarrolla en un editor de texto y posteriormente compila el programa para verificar que está correcto, esto en cualquier lenguaje de programación, aunque actualmente existen Entornos de Desarrollo Integrados (IDE) que no son más que un programa informático que consta de una serie de herramientas de programación, los que actualmente utilizan los lenguajes de programación para su desarrollo."
+              ],
+              "assets": [
+                "https://www.programaenlinea.net/wp-content/uploads/2020/05/java-ide.png"
+              ]
+            },
+            {
+              "title": "Software de Aplicación",
+              "content": [
+                "El software de aplicación, es aquel que utilizamos día a día, cada uno de los programas, aplicaciones o utilidades que manejamos dentro de nuestra computadora, entran dentro de esta clasificación de software, es el resultado de la programación de software, enfocado hacia alguno de los sistemas operativos, como puedes ver es el tercer y último paso, hablando de forma técnica es el software diseñado para el usuario final.",
+                " Dentro de los ejemplos que podría darte, se encuentran todos los programas que usas día a día, la paquetería de Office, los programas para comunicarte por medio de chat, los programas para ver fotos, utilidades para escuchar música en la computadora, los antivirus, etc."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/human-hand-holding-mobile-phone-with-text-messages_74855-6531.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Buenas prácticas de desarrollo web",
+          "url": "practicas_desarrollo_web",
+          "content": [
+            "Dentro del desarrollo web existen ciertas prácticas y herramientas que pueden incrementar nuestro desempeñó en la creación de nuestro proyecto, estas pueden marcar si el resultado final carece de calidad o cumple con los requerimientos planteados en un principio."
+          ],
+          "assets": [
+            "https://img.freepik.com/free-vector/bundle-engineering-set-icons_24877-57315.jpg?size=338&ext=jpg"
+          ],
+          "subContent": [
+            {
+              "title": "Diagrama de Gantt",
+              "content": [
+                "Son muy comunes en la gestión de proyectos. Un diagrama de Gantt es un gráfico de barras horizontales que se usa para ilustrar el cronograma de un proyecto, programa o trabajo. Es una forma de ver la programación de tu proyecto, de dar seguimiento a los logros y de estar siempre familiarizado con el cronograma de tu trabajo. Cada barra de un diagrama de Gantt representa una etapa del proceso (o una tarea del proyecto) y su longitud, la cantidad de tiempo que demandará llevar a cabo esa etapa o finalizar la tarea. Cuando los miras en perspectiva, los diagramas de Gantt ofrecen a los equipos un panorama general acerca de cuál es el trabajo que hay que hacer, quién lo hace y cuándo."
+              ],
+              "assets": [
+                "https://support.content.office.net/es-es/media/b7218d7a-3313-4685-bc75-93efc939cff1.png"
+              ]
+            },
+            {
+              "title": "Tableros Kanban",
+              "content": [
+                "Tablero Kanban: Un tablero de kanban es una herramienta ágil de gestión de proyectos diseñada para ayudar a visualizar el trabajo, limitar el trabajo en curso y maximizar la eficiencia (o el flujo). Puede ayudar tanto a los equipos ágiles como a los de DevOps a definir el orden de su trabajo diario. Los tableros de kanban utilizan tarjetas, columnas y la mejora continua para ayudar a los equipos tecnológicos y de servicios a comprometerse con la cantidad de trabajo adecuada y, por supuesto, a llevarla a cabo. Un tablero Kanban sé compone por los siguientes elementos:",
+                "Señales visuales: Una de las primeras cosas que observarás en un tablero de kanban son las tarjetas visuales (adhesivos, tickets, etc.). Los equipos de kanban escriben todos sus proyectos y elementos de trabajo en tarjetas, generalmente uno por tarjeta. Para los equipos ágiles, cada tarjeta podría encapsular una historia de usuario. Sobre el tablero, estas señales visuales ayudan a los compañeros de equipo y a las partes interesadas a discernir rápidamente en qué está trabajando el equipo.",
+                "Columnas: Otra de las señas de identidad de los tableros de kanban son las columnas. Cada columna representa una actividad específica que, en conjunto, conforman un “flujo de trabajo”. Las tarjetas van moviéndose por el flujo de trabajo hasta que este termina. Los flujos de trabajo pueden ser algo tan sencillo como “Por hacer”, “En curso” y “Terminado” o pueden ser mucho más complejos.",
+                "Límites del trabajo en curso: Los límites del trabajo en curso son el número máximo de tarjetas que puede haber en una columna en un momento dado. Una columna con un límite de trabajo en curso de tres no puede contener más de tres tarjetas. Cuando la columna está “al máximo”, el equipo debe concentrarse en esas tarjetas y hacer que avancen antes de que puedan entrar tarjetas nuevas en esa etapa del flujo de trabajo. Estos límites del trabajo en curso resultan vitales para exponer los cuellos de botella del flujo de trabajo y maximizar el flujo. Dichos límites te brindan una señal de alerta temprana de que te has comprometido a asumir demasiado trabajo.",
+                "Punto de compromiso: Los equipos de kanban suelen tener un backlog para su tablero. Es aquí donde los clientes y los compañeros de equipo plantean ideas para proyectos que el equipo puede adoptar cuando esté listo para ello. El punto de compromiso es el momento en que el equipo adopta una idea y se inicia el trabajo en el proyecto.",
+                "Punto de entrega: El punto de entrega es el final del flujo de trabajo de un equipo de kanban. Para la mayoría de los equipos, el punto de entrega es el momento en el que el producto o servicio está en manos del cliente. El objetivo del equipo consiste en llevar las tarjetas desde el punto de compromiso hasta el punto de entrega cuanto antes. El tiempo transcurrido entre ambos es lo que se conoce como “plazo”. Los equipos de kanban mejoran continuamente para acortar al máximo los plazos."
+              ],
+              "assets": [
+                "http://comunidad.iebschool.com/wikiagil/files/2016/06/New-Mockup-1-copy.png"
+              ]
+            },
+            {
+              "title": "Product Vision Board",
+              "content": [
+                "El Product Vision Board (PVB) es una herramienta visual, plasmada en un canvas, creada por Roman Pitcher que permite presentar la visión de forma en que su entendimiento sea más fluido y además respondiendo preguntas claves que le servirán al equipo para entender y utilizar la visión. Este se compone por los siguientes elementos:",
+                "Codename: En esta sección del PVB se coloca el nombre que usará el equipo para referirse al proyecto. Recomiendo que entre todos los miembros del equipo busquen un nombre creativo que los relacione al proyecto.",
+                "Frase representativa: La frase representativa es una frase corta y precisa que expresa el alma del producto y es nuestro nexo hacia lo que aspira a ser como producto.",
+                "Grupo de usuario: En esta sección se Identifica los grupos de usuarios que utilizarán el producto. Respondemos la pregunta: ¿Para quién estamos trabajando en el proyecto?",
+                "Necesidades: Se encuentran las razones de ser de tu proyecto. Aquí la pregunta a responder es ¿Cuáles son las necesidades de tu grupo de usuarios?",
+                "Producto: Aquí se colocan las características de tu producto que respondan a: ¿Qué características de tu producto satisfacen las necesidades de tus usuarios?",
+                "Valor: ¿Qué valor le genera al negocio la satisfacción de la necesidad del grupo de usuario a través del producto?"
+              ],
+              "assets": [
+                "https://miro.medium.com/max/700/1*iYlfzVk-s5mbWBYp3_Ht7Q.png"
+              ]
+            },
+            {
+              "title": "Diagrama de casos de uso",
+              "content": [
+                "El diagrama de casos de uso es una forma de diagrama de comportamiento en lenguaje de modelado unificado (UML, del inglés Unified Modelling Language), con la que se representan procesos empresariales, así como sistemas y procesos de programación orientada a objetos. Por lo tanto, UML no es un lenguaje de programación, sino un lenguaje de modelado, es decir, un método estandarizado para representar sistemas planificados o ya existentes. En este diagrama, todos los objetos involucrados se estructuran y se relacionan entre sí.",
+                "En el diagrama de casos de uso, las funciones del sistema en cuestión se representan desde el punto de vista del usuario (llamado “actor” en UML). Este actor no tiene que ser necesariamente un usuario humano, sino que el rol también puede atribuirse a un sistema externo que accede a otro sistema. De este modo, el diagrama de casos de uso muestra la relación entre un actor y sus requisitos o expectativas del sistema, sin representar las acciones que tienen lugar o ponerlas en un orden lógico.",
+                "En la práctica, esta estructura es adecuada para representar claramente las funciones y/u objetivos más importantes de un sistema. Por esta razón, a la hora de desarrollar un software o planificar nuevos procesos empresariales, crear un diagrama de casos de uso suele ser uno de los primeros pasos, ya que permite visualizar clara y fácilmente qué casos de uso deben tenerse en cuenta durante el desarrollo para que los actores (y, en un sentido más amplio, también los operadores o clientes) logren su objetivo, en principio independientemente de la viabilidad técnica. Este tipo de diagrama se conforma por los siguientes elementos:",
+                "Actor: Tanto si es una persona, como un sistema, se representa con el dibujo de una figura humana esquemática.",
+                "Sistema: El sistema al que se refiere el caso de uso tiene forma de rectángulo.",
+                "Caso de uso: se muestra como una elipse que suele incluir un texto describiendo brevemente el proceso."
+              ],
+              "assets": [
+                "https://ingsotfwarekarlacevallos.files.wordpress.com/2015/07/3.png"
+              ]
+            },
+            {
+              "title": "Historias de usuarios",
+              "content": [
+                "Una historia de usuario es una explicación general e informal de una función de software escrita desde la perspectiva del usuario final. Su propósito es articular cómo proporcionará una función de software valor al cliente. Es común pensar que las historias de usuario son, en pocas palabras, requisitos del sistema de software, pero no lo son.",
+                "Un componente clave del desarrollo de software ágil es poner a las personas en primer lugar, y las historias de usuarios ponen a los usuarios finales reales en el centro de la conversación. Las historias utilizan un lenguaje no técnico para ofrecer contexto al equipo de desarrollo y sus esfuerzos. Después de leer una historia de usuario, el equipo sabe por qué está compilando lo que está compilando y qué valor crea."
+              ],
+              "assets": [
+                "https://urtanta.com/wp-content/uploads/2017/08/Historias-de-Usuario-Gen%C3%A9rico.jpg"
+              ]
+            },
+            {
+              "title": "",
+              "content": [
+                "Un tipo de tabla utilizada en metodologías ágiles para medir la cantidad de trabajo restante contra el tiempo. En inglés es conocida como Burndown Chart, un gráfico de trabajo pendiente típico representará el trabajo sobresaliente (número de funciones, días ideales, días de equipo, etc.) en el eje vertical, y el tiempo (días, iteraciones, sprints, etc.) en el eje horizontal.",
+                "Los gráficos de trabajo pendiente son muy útiles para medir el progreso real del trabajo en comparación con el progreso ideal del trabajo, y detectar los posibles retrasos en los horarios y los problemas de ritmo de trabajo desde el principio."
+              ],
+              "assets": [
+                "https://scrumenespanol.files.wordpress.com/2015/09/proyectos-agiles-burndown-chart-alfa-20090930.gif?w=470&h=303"
+              ]
+            },
+            {
+              "title": "Diagrama PERT",
+              "content": [
+                "PERT es la sigla en inglés de técnica de evaluación y revisión de programas. Un diagrama de PERT es una herramienta de gestión de proyectos que se emplea para analizar cada tarea necesaria para completar un proyecto. Los diagramas de PERT, diseñados para proyectos a gran escala, sirven para identificar el tiempo necesario para completar cada tarea, calculando los requisitos con plazo más corto, más largo y más probable.",
+                "Los diagramas PERT ofrecen una clara comprensión gráfica de los requisitos de tiempo de un proyecto y las interdependencias entre las tareas, y te permiten tomar decisiones informadas sobre la secuencia de tareas, las fechas límite y más. Usar este mapa integral de tus tareas y fechas límite facilita que el equipo pueda completar el proyecto en menos tiempo, con menos desperdicio y confusión, con lo que se obtienen mejores resultados para tu equipo y tus clientes."
+              ],
+              "assets": [
+                "https://ledsdoit.files.wordpress.com/2012/01/pert.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Las tecnologías web",
+          "url": "tecnologias_web",
+          "content": [
+            "En el mundo del desarrollo web se hace uso de diferentes tecnologías y herramientas para cumplir con los requerimientos, pero todo proyecto siempre necesitará de un servidor web donde se recibirán las peticiones del cliente, un servidor para mantener en la red el cliente y una base datos para almacenar información que provenga del cliente. Estos tres elementos no son los únicos que pueden conformar una página web, y gracias a esto más y más desarrolladores se especializan en componentes específicos para la construcción de una aplicación web. Estas especializaciones son: "
+          ],
+          "assets": [
+            "https://www.prospectfactory.com.mx/wp-content/uploads/2015/01/shutterstock_450529657-1000x500.jpg"
+          ],
+          "subContent": [
+            {
+              "title": "Analista web",
+              "content": [
+                "El analista web es el perfil profesional encargado de medir y analizar los efectos de cualquier acción realizada en Internet. Su función pasa por la recopilación y el análisis de los datos, pero además, ha de ser capaz de interpretar dichos datos estableciendo relaciones de causa-efecto respecto a las acciones tomadas.",
+                "La principal responsabilidad de un analista web será la de establecer objetivos nuevos acordes con el cambio y evolución de los datos que va recopilando. Las empresas gastan mucho dinero en marketing, y un analista ha de ser capaz de dar las guías y pautas a seguir para que las acciones sean los más rentables posibles; vayan dirigidas al público interesado y, en definitiva, vayan a significar un retorno sobre la inversión."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/man-with-laptop-analyzing-infographics-diagram-bar-chart-report-flat-vector-illustration-analysis-marketing-project-manager_74855-8454.jpg"
+              ]
+            },
+            {
+              "title": "Diseñador de UX/UI",
+              "content": [
+                "Es importante diferenciar entre User Interface (UI) y User Experience (UX), dos disciplinas que habitualmente se confunden, probablemente por trabajar de la mano y por la similitud de sus acrónimos. La realidad es que UI se refiere a la creación de la interfaz, que puede ser gráfica o desarrollada principalmente con lenguajes como HTML, CSS o Javascript, mientras que UX se centra en la usabilidad, enfocándose en el análisis y las relaciones sociales.",
+                "El profesional que se encargue del UI se centrará en el diseño del producto, impactando en la primera impresión visual del usuario, algo que determina si nuestra web o aplicación es de su gusto, mientras que el encargado del UX se orienta en la usabilidad y facilidad de navegación, creando unas emociones y sensaciones determinadas al hacer uso de la interfaz. Otra forma de decirlo: el diseñador UI se encarga principalmente del aspecto visual de la interfaz, mientras que el UX se centra en garantizar que la navegación y acciones que realiza el usuario tengan coherencia, él UI se encarga de decidir el recorrido del usuario mientras que el UX se centra en los procesos y acciones desencadenantes del uso."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/linear-flat-ui-ux-interface-design-web-site-hero-image-illustration-user-experience-projecting-testing-app-software-concept-laptop-digitizer-rulers-wireframe_126523-2647.jpg"
+              ]
+            },
+            {
+              "title": "Maquetador",
+              "content": [
+                "El maquetador web traduce una plantilla propuesta por un diseñador a lenguajes de marcas (XHTML, XML o HTML) y de estilos (CSS). Es decir, estructura los elementos que componen el diseño de manera que puedan ser interpretados por un navegador. En muchos casos también puede implementar ciertas características en lenguajes de scripting, como JavaScript. En este punto, el sitio web ya cuenta con interactividad, pero sólo desde el punto de vista del front-end."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg"
+              ]
+            },
+            {
+              "title": "Desarrollador frontend",
+              "content": [
+                "Un desarrollador frontend  se encarga de programar el código para hacer que la interfaz sea atractiva, intuitiva y que la experiencia de usuario (navegación) sea agradable para su público objetivo. Al contrario que el backend, un desarrollador frontend va a trabajar siempre por y para el usuario final teniendo en cuenta lo siguiente:",
+                "Usabilidad: Hace referencia a la facilidad que ofrecen las aplicaciones móviles o webs para que el usuario final interactúe sin necesidad de tener un alto grado de conocimientos en la navegación.",
+                "Accesibilidad: Cuando hablamos de accesibilidad lo hacemos en varios términos, en un primer lugar nos referimos al acceso que tenemos a herramientas digitales desde cualquier dispositivo, en otro caso sería la forma en que pueden acceder a estas herramientas personas con discapacidad. En definitiva, se refiere a la eliminación de barreras para la equiparación de oportunidades.",
+                "Experiencia de usuario: En este punto hablamos de la interacción que tiene el usuario con el entorno digital, si la experiencia al utilizar los diferentes dispositivos de acceso es positiva o por el contrario es compleja y poco satisfactoria."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/people-drawing-web-page-elements-smartphone-lcd-screen-illustration_335657-293.jpg"
+              ]
+            },
+            {
+              "title": "Desarrollador backend",
+              "content": [
+                "Un desarrollador backend, se encarga de diseñar la lógica y las soluciones para que todas las acciones solicitadas en una página web sean ejecutadas de manera correcta. Trabaja del lado del servidor y procesa la información recibida a través del frontend.",
+                "Por lo tanto, un desarrollador backend es responsable de la programación del sitio en todos sus componentes. Podría decirse que es el que trabaja “detrás del escenario”, permitiendo que el usuario disfrute su experiencia. Por lo que debe asegurarse de que todo funcione de acuerdo a las interacciones que hace el usuario. Mientras que el desarrollador frontend, se encarga de la interfaz del sitio.",
+                "El desarrollador backend debe estudiar los diferentes lenguajes de programación que pueden ser necesarios para desarrollar su trabajo. Debe formarse como desarrollador de aplicaciones web o como desarrollador de aplicaciones multiplataforma.  Además necesita conocer las interacciones con diferentes bases de datos."
+              ],
+              "assets": [
+                "https://www.campusmvp.es/recursos/image.axd?picture=/2019/3T/front-vs-back-campusmvp.png"
+              ]
+            },
+            {
+              "title": "QA tester",
+              "content": [
+                "QA Tester (Quality Assurance) es un asegurador de la calidad. Es un perfil profesional orientado principalmente a la medición de la calidad de los procesos utilizados para crear un producto de calidad. Entre sus funciones se encuentran el diseño y la ejecución integral de pruebas,   la medición sistemática, la comparación con estándares, el seguimiento de los procesos… todas ellas encaminadas a la prevención de errores durante el proceso de desarrollo del producto. Se diferencia del testing (también conocido como ‘Control de la calidad’), en que este último únicamente realiza las actividades orientadas a comprobar la calidad al final del proceso, al producto.",
+                " QA se realiza durante todas las etapas del proyecto. Se centra más en la prevención que en la detección. El proceso de aseguramiento de la calidad tiene como objetivo proporcionar una adecuada garantía de que los productos de software se ajustan a sus necesidades específicas y a los planes establecidos anteriormente. Un profesional que se dedique al aseguramiento de la calidad (QA) no es necesario que tenga conocimientos de programación, pero sí que es recomendable, ya que le ayudará a la hora de realizar sus tareas de control de la calidad."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/illustration-quality-control_53876-17826.jpg"
+              ]
+            },
+            {
+              "title": "Gerente de proyecto",
+              "content": [
+                "El jefe de proyecto web mediará las prioridades del proyecto y determinará qué recursos asignar a las diferentes tareas a medida que el proyecto progresa. Además, asegurará que a veces equipos heterogéneos puedan trabajar juntos. El jefe de proyecto web es el punto focal de una organización horizontal que incluye el desarrollo, mercadotecnia, diseño web e incluso la operación de equipos. También coordinará todas las acciones a ser implementadas durante el proyecto y garantizará una buena comunicación entre los participantes.",
+                "El jefe de proyecto web por ende interviene en las etapas tempranas de un proyecto, desde el momento en que se establecen con el cliente cuáles son los requisitos y el boceto de las especificaciones, definiendo el calendario de implementación y las fechas de entrega. Este también tendrá que manejar a través de todo el proyecto los diferentes problemas a los que se enfrente (limitaciones técnicas no identificadas, gestión de recursos humanos, solución de conflictos, necesidad de recursos materiales, etc.) para resolverlos y permitir la continuidad del proyecto."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/set-businessman-icons-depicting-man-working-his-desk-deadline-public-speaking-megaphone-doing-presentation-his-career-taking-off-like-rocket-inspirational-idea_1284-43154.jpg"
+              ]
+            },
+            {
+              "title": "Administrador de infraestructura",
+              "content": [
+                "Un ingeniero de infraestructura o de redes es el responsable de gestionar el área de operaciones de Infraestructura de TI asegurando el correcto funcionamiento de los procesos a su cargo: gestión de las bases de datos de los sistemas y plataformas de la compañía, gestión de los sistemas operativos, gestión de los ambientes Web, gestión de los ambientes Windows, gestión de los entornos de preproducción entre otros.",
+                "Debe garantizar que la infraestructura que soporta todas las aplicaciones de los sistemas y servicios de la compañía se encuentre en óptimas condiciones de funcionamiento. Debe garantizar que esta infraestructura permita a nuestros usuarios internos y externos disponer de los niveles de información requeridos."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/computer-technology-isometric-icon-server-room-digital-device-set-element-design-pc-laptop_39422-1026.jpg"
+              ]
+            },
+            {
+              "title": "Administrador de bases de datos",
+              "content": [
+                "Los Administradores de Bases de Datos son responsables del manejo, mantenimiento, desempeño y de la confiabilidad de bases de datos. Asimismo, están a cargo de la mejora y diseño de nuevos modelos de las mismas. Manejar una base de datos implica recolectar, clasificar y resguardar la información de manera organizada, por ello, estos profesionales velan por garantizar que la misma esté debidamente almacenada y segura, además de que sea de fácil acceso cuando sea necesario."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/server-concept-illustration_114360-287.jpg"
+              ]
+            },
+            {
+              "title": "Arquitecto de sistemas",
+              "content": [
+                "Un arquitecto de software es un experto en software que dicta estándares técnicos. Esto incluye estándares de codificación de software, herramientas y plataformas a utilizar. Los arquitectos de software diseñan y desarrollan sistemas y aplicaciones de software. Pueden crear software a medida para clientes o productos orientados a consumidores, como juegos o aplicaciones.",
+                "Son responsables de la toma de decisiones de alto nivel en el proceso de desarrollo. Deciden sobre el diseño, las medidas técnicas, las plataformas o las normas de programación que se emplearán en el proyecto. Los arquitectos de software tienden a supervisar y trabajar estrechamente con otros miembros de un equipo de desarrollo, como los programadores."
+              ],
+              "assets": [
+                "https://image.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37336.jpg"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

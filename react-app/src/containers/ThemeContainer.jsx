@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
-import { data } from "../content/placeholder.json";
+import { data } from "../content/data.json";
 import Header from "../components/Header/Header";
 import ContentDisplay from "../components/ContentDisplay/ContentDisplay";
 import Footer from "../components/Footer/Footer";

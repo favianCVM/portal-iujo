@@ -68,7 +68,6 @@ const SearchBar = ({ data }) => {
         type="text"
         placeholder="Buscar un tema"
         className="searchbar"
-        value={query}
       />
       <ul className="searchbar__result-list">{query && options}</ul>
     </div>
