@@ -1,0 +1,241 @@
+{
+  "data": [
+    {
+      "title": "Programación",
+      "definition": "Programación es la acción de programar que implica ordenar, estructurar o componer una serie de acciones cronológicas para cumplir un objetivo. La programación puede ser aplicado para eventos sociales, a medios de comunicación y al mundo informático de las computadoras."
+    },
+    {
+      "title": "Código",
+      "definition": "En el caso de la informática, se conoce como código fuente al texto desarrollado en un lenguaje de programación y que debe ser compilado o interpretado para poder ejecutarse en un ordenador, también llamado computadora."
+    },
+    {
+      "title": "Actualizar",
+      "definition": "Volver a cargar o mostrar el contenido de una página Web o una ventana."
+    },
+    {
+      "title": "API",
+      "definition": "(Aplication Program Interface - Interfaz de Aplicación del Programa): Conjunto de rutinas del sistema que se pueden usar en un programa para la gestión de entrada-salida de ficheros, etc."
+    },
+    {
+      "title": "Arbol",
+      "definition": "Estructura de directorios o carpetas de un ordenador, del directorio raíz van partiendo diferentes ramas (subdirectorios o subcarpetas), donde se ubican los archivos."
+    },
+    {
+      "title": "Archivo",
+      "definition": "Documento generado con una aplicación que se almacena en una unidad."
+    },
+    {
+      "title": "Binario",
+      "definition": "Código básico de la informática que reduce todo tipo de información a cadenas de ceros y unos, que rigen las instrucciones y respuestas del microprocesador."
+    },
+    {
+      "title": "BIOS",
+      "definition": "Información básica grabada en un chip imborrable que hace que un ordenador pueda funcionar y arrancar."
+    },
+    {
+      "title": "Bookmark",
+      "definition": "Marca, anotación de una dirección Web oURL que queda archivada para su posterior uso."
+    },
+    {
+      "title": "Base de datos",
+      "definition": "Conjunto de datos que pertenecen al mismo contexto almacenados sistemáticamente. En una base de datos, la información se organiza en campos y registros. Los datos pueden aparecer en forma de texto, números, gráficos, sonido o vídeo."
+    },
+    {
+      "title": "Base de datos distribuida",
+      "definition": "Conjunto de datos almacenados en diversos lugares que para un usuario aparecen como una base de datos única. Un ejemplo esencial en Internet es el Domain Name System."
+    },
+    {
+      "title": "Boolean",
+      "definition": "Esta es la lógica que las computadoras usan para determinar si una declaración es falsa o verdadera."
+    },
+    {
+      "title": "Caracter",
+      "definition": "Número, letra o símbolo en la computadora, conformado por un byte."
+    },
+    {
+      "title": "Controlador",
+      "definition": "Software que permite que el procesador sea capaz de comunicarse con un periférico determinado. Cada vez que se conecta un periférico, es necesario instalar el controlador correspondiente. El S.O. WindowsXP los instala de forma automática siempre que tenga los controladores disponibles. También se les llama Drivers."
+    },
+    {
+      "title": "Carpeta",
+      "definition": "Espacio del disco duro de una computadora cuya estructura jerárquica en forma de árbol contiene la información almacenada en una computadora, habitualmente en archivos y es identificado mediante un nombre (ej. Mis documentos)."
+    },
+    {
+      "title": "CPU",
+      "definition": "Unidad central de proceso de un ordenador. Es la parte a la que llega la información desde los periféricos de entrada, ejecuta las tareas y devuelve los resultados a los periféricos de salida. Aparentemente es una caja en cuyo interior está el procesador, la memoria, etc."
+    },
+    {
+      "title": "Dato",
+      "definition": "Unidad mínima entre las que componen una información. Es una palabra latina que significa 'lo que se da' y que apenas se utiliza en inglés, donde se suele utilizar data tanto para el singular como para el plural."
+    },
+    {
+      "title": "Desfragmentar",
+      "definition": "Desfragmentar un disco duro es el proceso en el cual se reorganiza la data del disco duro para que este de una manera más eficiente, por lo tanto, el disco duro funciona más rápido y mejor."
+    },
+    {
+      "title": "Disco duro",
+      "definition": "Disco que se encuentra en el interior de la CPU y que almacena, tanto la información generada por el usuario, como los archivos necesarios para que los programas funcionen. Se le identifica por la letra C en el sistema operativo, y se le suele representar por las iniciales HD (hard disk). Su capacidad es variable, pero en la actualidad es del orden de GB."
+    },
+    {
+      "title": "Dispositivos de entrada",
+      "definition": "Dispositivos conectados a la CPU que permiten introducir datos en el ordenador. Por ejemplo: el teclado, el ratón, el escáner, el micrófono, el módem, la web-cam."
+    },
+    {
+      "title": "Dispositivos de salida",
+      "definition": "Dispositivos conectados a la CPU que permiten extraer los datos procesados del ordenador. Por ejemplo: la pantalla, los altavoces, la impresora, el módem..."
+    },
+    {
+      "title": "Ensamblador",
+      "definition": "Es un programa que traduce el código del lenguaje de ensamble a lenguaje de máquina."
+    },
+    {
+      "title": "Emulación",
+      "definition": "Proceso de compatibilización entre computadoras mediante un software."
+    },
+    {
+      "title": "Ethernet",
+      "definition": "Tipo de red de área local desarrollada en forma conjunta por Xerox, Intel y Digital Equipment. Se apoya en la topología de bus; tiene ancho de banda de 10 Mbps, por lo tanto tiene una elevada velocidad de transmisión y se ha convertido en un estándar de red."
+    },
+    {
+      "title": "Favicon",
+      "definition": "Corto en inglés para Favorite Icon (Icono Favorito). Es un mini grafico que puede ser una marca o logo. Cuando un sitio web lo utiliza, aparece a los usuarios en la barra de direcciones del navegador."
+    },
+    {
+      "title": "Hipertexto",
+      "definition": "Cualquier documento que contiene vínculos con otros documentos de forma que al seleccionar un vinculo se despliega automáticamente el segundo documento."
+    },
+    {
+      "title": "Hipervínculo",
+      "definition": "Vínculo existente en un documento hipertexto que apunta o enlaza a otro documento que puede ser o no otro documento hipertexto."
+    },
+    {
+      "title": "Acoplamiento",
+      "definition": "Medida del grado en el que un objeto o componente depende de otro. Bajo acoplamiento minimiza las dependencias y es una indicación de un buen diseño"
+    },
+    {
+      "title": "Algoritmo",
+      "definition": "Método que describe cómo se resuelve un problema en término de las acciones que se ejecutan y especifica el orden en que se ejecutan estas acciones. Los algoritmos ayudan al programador a planificar un programa antes de su escritura en un lenguaje de programación."
+    },
+    {
+      "title": "Ámbito de clase",
+      "definition": "Las variables privadas definidas fuera de los métodos internos a la clase tienen ámbito de clase. Son accesibles desde todos los métodos del interior de la clase, con independencia del rden en que están definidas. Los métodos privados también tiene ámbito de clase."
+    },
+    {
+      "title": "Análisis",
+      "definition": "Proceso de identificación, modelado y descripción de lo que hace un sistema y de cómo trabaja "
+    },
+    {
+      "title": "Array",
+      "definition": "Objeto contenedor que almacena una secuencia indexada de los mismos tipos de datos. Normalmente los elementos individuales se referencian por el valor de un índice. El índice es un valor entero que , suele comenzar, en 0 para el primer elementos, 1 para el segundo y así sucesivamente."
+    },
+    {
+      "title": "Asignación",
+      "definition": "Almacenamiento de un valor en una variable. La sentencia de asignación es aquella que implementa la asignación y utiliza un operador de asignación."
+    },
+    {
+      "title": "Asociación",
+      "definition": "Una relación entre dos clases tales como una instancia de una clase referencia a una instancia de otra clase."
+    },
+    {
+      "title": "Asociatividad",
+      "definition": "Orden en que se envalúan operadores de igual precedencia o prioridad dentro de una expresión. La asociatividad por la izquierda produce una evaluación de izquierda a derecha y la asociatividad por la derecha conduce a una evaluación de derecha a izquierda."
+    },
+    {
+      "title": "Cabecera de la clase",
+      "definition": "Cabecera de la definición de la clase. La cabecera proporciona un nombre a la clase y define sus accesos. También describe si es una clase ampliada (extends) de una superclase o implementa interfaces (implements)"
+    },
+    {
+      "title": "Clase",
+      "definition": "Colección encapsulada de datos y operaciones que actúan sobre los datos. El concepto de clase es fundamental en programación orientada a objetos. Una clase consta demétodos y datos. Los métodos de una clase definen el conjunto de operaciones permitidas sobre los datos de una clase (sus atributos). Una clase puede tener muchas instancia de la clase u objetos."
+    },
+    {
+      "title": "Método de la clase",
+      "definition": "Sinónimo de método estático. Un método que se puede invocar sin crear una instancia de la clase. Para definir métodos de clases, se ha de poner un modificador static en la declaración del método."
+    },
+    {
+      "title": "Objeto instancia",
+      "definition": "Un objeto instancia es un representación de un valor del tipo implementado por su clase. La clase declara un objeto de variables, instancia que forman la estructura de un objeto y un conjunto de métodos que se pueden llamar en un objeto."
+    },
+    {
+      "title": "Programación controlada por sucesos",
+      "definition": "La programación de gráficos en Java está controlada por sucesos. En programación controlada por sucesos (o enventos) los códigos se ejecutan por activación de sucesos, tales como pulsar un botón o mover el ratón"
+    },
+    {
+      "title": "Método",
+      "definition": "Una colección de sentencias que se agrupan juntos para ejecutar una operación. "
+    },
+    {
+      "title": "Sobrecarga de un método",
+      "definition": "La sobrecarga de n método significa que se puede definir los métodos con el mismo nombre de una clase siempre que haya diferencia en sus parámetros. "
+    },
+    {
+      "title": "Paquete",
+      "definition": "Colección de clases agrupadas juntas. "
+    },
+    {
+      "title": "Programador",
+      "definition": "Personas que diseña, escribe, prueba y depura programas"
+    },
+    {
+      "title": "Subclase",
+      "definition": "Una clase que hereda o se extiende de una superclase. "
+    },
+    {
+      "title": "Superclase",
+      "definition": "Una clase que puede ser heredada de otra clase. "
+    },
+    {
+      "title": "Subtipo",
+      "definition": "Un tipo que hereda o se extiende de un supertipo."
+    },
+
+    {
+      "title": "Unicode",
+      "definition": "Un sistema de codificación de caracteres internacionales gestionados por el consorcio Unicode, Java soporta Unicode."
+    },
+    {
+      "title": "Comando",
+      "definition": "Orden que se da al ordenador para ejecutar una función concreta o un programa."
+    },
+    {
+      "title": "Compresor",
+      "definition": "Programa que comprime ficheros, por muy grandes que éstos sean, genera un solo archivo con ellos, además de dividir la nformación y permitir guardarla en varios disketes."
+    },
+    {
+      "title": "Cookies",
+      "definition": "Mecanismos que permiten a los gestores de cada página web grabar las entradas y salidas de los usuarios que acceden a su servidor. Es como si dejáramos nuestra tarjeta de visita."
+    },
+    {
+      "title": "Cortafuegos (firewall)",
+      "definition": "Programa que protege a una red de otra red."
+    },
+    {
+      "title": "Servicio en línea",
+      "definition": "Servicio Internet que proporciona una amplia gama de contenido a sus suscriptores, incluyendo el acceso a Internet."
+    },
+    {
+      "title": "Sistema operativo",
+      "definition": "Programa primario que debe tener un ordenador para que las demás aplicaciones puedan funcionar."
+    },
+    {
+      "title": "Variable",
+      "definition": "Una Variable es un espacio de la memoria del computador que permite almacenar información de un determinado tipo de dato. El tipo de dato indica como es el dato que se almacena en la variable, en programación los tipos de datos básicos son los numéricos, los carácter y los lógicos."
+    },
+    {
+      "title": "Hardware",
+      "definition": "Maquinaria. Componentes físicos de una computadora o de una red (a diferencia de los programas o elementos lógicos que los hacen funcionar)."
+    },
+    {
+      "title": "HTTP",
+      "definition": "En inglés Hypertext Transfer Protocol. Protocolo de Transferencia de Hipertexto. HTTP es un protocolo con la ligereza y velocidad necesaria para distribuir y manejar sistemas de información hipermedia. HTTP ha sido usado por los servidores World Wide Web desde su inicio en 1993."
+    },
+    {
+      "title": "HTTPS",
+      "definition": "Creado por Netscape Communications Corporation para designar documentos que llegan desde un servidor web seguro. Esta seguridad es dada por el protocolo SSL (Secure Socket Layer) basado en la tecnología de encriptación y autenticación desarrollada por RSA Data Security Inc."
+    },
+    {
+      "title": "Software",
+      "definition": "Conjunto de programas y rutinas que permiten a la computadora realizar determinadas tareas."
+    }
+  ]
+}
