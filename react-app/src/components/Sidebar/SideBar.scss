@@ -54,6 +54,13 @@
     width: 100%;
     border-bottom: 3px solid $black;
 
+    .sidebar-dropdown {
+      .sidebar-content-list-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
     #dropdown:checked ~ .sidebar-dropdown {
       display: flex;
     }
