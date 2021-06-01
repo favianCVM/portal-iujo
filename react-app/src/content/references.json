@@ -129,16 +129,40 @@
       "date": "(1999-2000)"
     },
     {
-      "author": "Francisco Morero",
-      "url": "https://kataix.umag.cl/~ruribe/Utilidades/Introduccion%20a%20la%20Programacion%20Orientada%20a%20Objetos.pdf",
-      "title": "Introducción a la OOP2",
-      "date": "(1999-2000)"
+      "author": "Digital Guide IONOS",
+      "url": "https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/paradigmas-de-programacion/",
+      "title": "Paradigmas de programación",
+      "date": "(20/04/20)"
     },
     {
-      "author": "Francisco Morero",
-      "url": "https://kataix.umag.cl/~ruribe/Utilidades/Introduccion%20a%20la%20Programacion%20Orientada%20a%20Objetos.pdf",
-      "title": "Introducción a la OOP3",
-      "date": "(1999-2000)"
+      "author": "Yunior Andrés",
+      "url": "https://www.monografias.com/trabajos107/paradigmas-programacion/paradigmas-programacion.shtml",
+      "title": "Paradigmas de programación",
+      "date": "(2015)"
+    },
+    {
+      "author": "AMIGA",
+      "url": "http://www.upv.es/amiga/43.htm",
+      "title": "Conceptos básicos de Programación Orientada a Objetos",
+      "date": "(1996)"
+    },
+    {
+      "author": "Lucid Chart",
+      "url": "https://www.lucidchart.com/pages/es/que-es-el-lenguaje-unificado-de-modelado-uml#section_1",
+      "title": "Qué es el lenguaje unificado de modelado (UML)",
+      "date": ""
+    },
+    {
+      "author": " Angel Robledano",
+      "url": "https://openwebinars.net/blog/que-es-la-programacion-orientada-objetos/",
+      "title": "Qué es la programación orientada a objetos",
+      "date": "(11/06/2019)"
+    },
+    {
+      "author": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/Abstracci%C3%B3n_(inform%C3%A1tica)",
+      "title": "Abstracción (informática)",
+      "date": "(11/08/2015)"
     }
   ]
 }
