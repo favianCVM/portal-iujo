@@ -18,6 +18,10 @@
   flex: 1;
 }
 
+.sidebar__flex-container {
+  display: flex;
+}
+
 .sidebar__search-bar {
   border: 3px solid var(--black);
   border-radius: 0.3rem;
@@ -96,5 +100,9 @@
     border-top: 3px solid var(--black);
     border-left: none;
     border-right: none;
+  }
+
+  .sidebar__flex-container {
+    flex-direction: column;
   }
 }

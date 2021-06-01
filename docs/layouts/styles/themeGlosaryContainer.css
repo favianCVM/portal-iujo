@@ -1,13 +1,18 @@
 @import "../index.css";
 
 .theme-glosary__container {
-  background-color: var(--marble);
+  background-color: var(--horizon);
   flex: 4;
   padding: 1rem;
 }
 
 .theme-glosary__title {
   text-align: center;
+  color: var(--marble);
+  margin: 1rem 0 0 0;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .theme-glosary__search-bar {
@@ -39,25 +44,16 @@
   align-items: flex-start;
   margin: 0 1rem 1rem 1rem;
   position: relative;
-  width: 280px;
+  width: 300px;
   height: fit-content;
   transition: all 0.3s ease;
 }
 
-.theme:hover {
-  box-shadow: 15px 9px 29px -10px rgba(0, 0, 0, 0.75);
-  transform: translateX(3px) translateY(3px);
-}
-
 .theme__title {
-  box-shadow: 0px 8px 15px -10px rgba(0, 0, 0, 0.75);
-  color: var(--marble);
+  box-shadow: 0px 8px 10px -10px rgba(0, 0, 0, 0.75);
   font-size: 1.3rem;
-  position: sticky;
-  top: 0;
   padding: 1rem;
   text-align: center;
-  background-color: var(--blue-horizon);
 }
 
 .theme__definition {
