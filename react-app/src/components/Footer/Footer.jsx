@@ -49,12 +49,36 @@ const Footer = () => {
         <span className="footer__copyright">
           Copyright © All rights reserved to I.U.J.O
         </span>
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          explicabo dicta libero sed culpa esse iusto, enim quas, magnam nihil
-          fuga, maxime magni deleniti aliquid possimus cumque consequuntur?
-          Explicabo, doloremque.
-        </span>
+        <ul className="iujo-socials">
+          <h2>Redes sociales</h2>
+          <li className="iujo-social-networks">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://m.facebook.com/iujocatia/?locale2=es_LA"
+            >
+              Facebook
+            </a>
+          </li>
+          <li className="iujo-social-networks">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.instagram.com/iujocatia/?hl=es-la"
+            >
+              Instagram
+            </a>
+          </li>
+          <li className="iujo-social-networks">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://webiujocatia.wordpress.com"
+            >
+              Sitio Web Oficial
+            </a>
+          </li>
+        </ul>
       </div>
       <hr />
       <h2 className="footer__reference-title">Referencias bibliográficas</h2>

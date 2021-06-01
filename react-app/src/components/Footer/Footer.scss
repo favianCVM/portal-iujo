@@ -19,6 +19,24 @@
       display: block;
       margin: 1rem 0;
     }
+
+    .iujo-socials {
+      padding: 1rem 1rem 1rem 2rem;
+
+      .iujo-social-networks {
+        color: $soft-red;
+        margin: 1rem 0;
+        font-weight: 700;
+        a {
+          font-size: 1.4rem;
+          color: $text-color;
+
+          &:hover {
+            color: $soft-blue;
+          }
+        }
+      }
+    }
   }
 
   hr {
